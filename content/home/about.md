@@ -10,31 +10,31 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Domain Decomposition Methods",
+    "Boundary Integral Equations",
+    "Scientific Computing",
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in applied mathematics"
+  institution = "Inria - Sorbonne Université"
+  year = 2019
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Master's degree in applied mathematics"
+  institution = "Sorbonne Université"
+  year = 2016
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+  course = "Engineering degree"
+  institution = "École Nationale des Ponts et Chaussées"
+  year = 2016
+
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Since November 2016, I am a PhD student under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Inria and at Laboratoire Jacques-Louis Lions (LJLL), working in the joint Inria-LJLL project team Alpines. My thesis is funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+My research focuses on Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool](https://github.com/PierreMarchand20/htool) with a parallelized matrix-vector product using MPI.
