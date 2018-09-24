@@ -30,7 +30,7 @@ caption = ""
 
 +++
 
-Htool is an implementation of hierarchical matrices (cf. this [reference](http://www.springer.com/gp/book/9783662473238) or this [one](http://www.springer.com/gp/book/9783540771463), it was written to test *Domain Decomposition Methods* (DDM) applied to *Boundary Element Method* (BEM). It provides:
+Htool is an implementation of hierarchical matrices (cf. this [reference](http://www.springer.com/gp/book/9783662473238) or this [one](http://www.springer.com/gp/book/9783540771463)), it was written to test *Domain Decomposition Methods* (DDM) applied to *Boundary Element Method* (BEM). It provides:
 
 - routines to build hierarchical matrix structures (cluster trees, block trees, low-rank matrices and block matrices),
 - parallel matrix-vector and matrix-matrix product using MPI and OpenMP,

@@ -58,7 +58,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Pierre Marchand"
-  role = "PhD in applied mathematics"
+  role = "PhD student in applied mathematics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

@@ -19,7 +19,7 @@ weight = 60
 - *M1 : Calcul scientifique pour les grands systèmes linéaires [4M053]* <br>
 36 hours -- lecturers: [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Cindy Guichard](http://cindy-guichard.toile-libre.org)
 - *M1 : Mise en oeuvre de la méthode des éléments finis [4M054]* <br>
-36 hours -- lecturers:[Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Cindy Guichard](http://cindy-guichard.toile-libre.org)
+36 hours -- lecturers: [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Cindy Guichard](http://cindy-guichard.toile-libre.org)
 
 ### 2016-2017 at Université Pierre et Marie Curie
 - *M1 : Calcul scientifique pour les grands systèmes linéaires [4M053]* <br>
