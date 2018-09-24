@@ -27,7 +27,7 @@ weight = 5
   year = 2016
 
 [[education.courses]]
-  course = "Engineering degree"
+  course = "Engineer's degree"
   institution = "École Nationale des Ponts et Chaussées"
   year = 2016
 
