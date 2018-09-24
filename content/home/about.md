@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in applied mathematics"
+  course = "(PhD in applied mathematics)"
   institution = "Inria - Sorbonne Université"
   year = 2019
 
