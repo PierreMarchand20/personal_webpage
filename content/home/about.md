@@ -37,4 +37,4 @@ weight = 5
 
 Since November 2016, I am a PhD student under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Inria and at Laboratoire Jacques-Louis Lions (LJLL), working in the joint Inria-LJLL project team Alpines. My thesis is funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
 
-My research focuses on Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool](https://github.com/PierreMarchand20/htool) with a parallelized matrix-vector product using MPI.
+My research focuses on Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool]({{< ref "project/htool.md" >}}) with a parallelized matrix-vector product using MPI.
