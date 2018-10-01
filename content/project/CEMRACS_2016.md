@@ -8,7 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Research project conducted during the summer school CEMRACS in 2016"
 
 # Optional image to display on homepage.
 image_preview = "cemracs_2016.jpeg"

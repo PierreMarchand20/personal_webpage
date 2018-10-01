@@ -8,7 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = ""
+summary = "Library for parallel hierarchical matrices"
 
 # Optional image to display on homepage.
 image_preview = "htool.png"
