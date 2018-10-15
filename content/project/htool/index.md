@@ -10,9 +10,6 @@ tags = []
 # Project summary to display on homepage.
 summary = "Library for parallel hierarchical matrices"
 
-# Optional image to display on homepage.
-image_preview = "htool.png"
-
 # Optional external URL for project (replaces project detail page).
 external_link = ""
 
@@ -23,11 +20,14 @@ math = false
 highlight = true
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  # caption = "Photo by Toa Heftiba on Unsplash"
 
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
 +++
 
 Htool is an implementation of hierarchical matrices (cf. this [reference](http://www.springer.com/gp/book/9783662473238) or this [one](http://www.springer.com/gp/book/9783540771463)), it was written to test *Domain Decomposition Methods* (DDM) applied to *Boundary Element Method* (BEM). It provides:

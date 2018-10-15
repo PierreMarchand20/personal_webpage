@@ -11,7 +11,7 @@ tags = []
 summary = "Research project conducted during the summer school CEMRACS in 2016"
 
 # Optional image to display on homepage.
-image_preview = "cemracs_2016.jpeg"
+#image_preview = "cemracs_2016.jpeg"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -23,10 +23,15 @@ math = false
 highlight = true
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  # caption = "Photo by Toa Heftiba on Unsplash"
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 +++
 ## CEMRACS 2016 Numerical challenges in parallel scientific computing July 18th - August 26th 
