@@ -225,7 +225,7 @@ enableGitInfo = false
     #   1 = Detailed
     #   2 = Stream
     talk_format = 2
-    
+
   # Social/Academic Networking
   #
   # Icon pack "fab" includes the following social network icons:
@@ -244,10 +244,10 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fas"
-    link = "mailto:pierre.marchand@inria.fr"
+  # [[params.social]]
+  #   icon = "envelope"
+  #   icon_pack = "fas"
+  #   link = "mailto:pierre.marchand@inria.fr"
 
   # [[params.social]]
   #   icon = "twitter"

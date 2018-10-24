@@ -17,7 +17,7 @@ event = "LJLL PhD student seminar"
 event_url = "https://www.ljll.math.upmc.fr/gtt/"
 
 # Location of event.
-location = ""
+location = "Paris, France"
 
 # Is this a selected talk? (true/false)
 selected = false

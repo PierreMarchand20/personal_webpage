@@ -1,23 +1,23 @@
 +++
 title = "Two-level preconditioning for BEM with GenEO"
-date = 2018-09-20T18:15:03+02:00  # Schedule page publish date.
+date = 2018-09-20T18:17:32+02:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-04-05T18:12:40+02:00
-time_end = 2018-04-05T18:12:40+02:00
+time_start = 2018-06-27T18:17:32+02:00
+time_end = 2018-06-27T18:17:32+02:00
 
 # Abstract and optional shortened version.
 abstract = ""
 abstract_short = ""
 
 # Name of event and optional event URL.
-event = "Journée interne du LJLL (JILL)"
-event_url = ""
+event = "Symposium of the International Association for Boundary Element Methods (IABEM)"
+event_url = "https://project.inria.fr/iabem2018/"
 
 # Location of event.
-location = ""
+location = "Paris, France"
 
 # Is this a selected talk? (true/false)
 selected = false

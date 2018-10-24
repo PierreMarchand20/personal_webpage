@@ -58,16 +58,20 @@ url_source = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 url_custom = [{name = "HAL", url = "https://hal.archives-ouvertes.fr/hal-01644518"}]
 
+# Digital Object Identifier (DOI)
+doi = ""
+
 # Does this page contain LaTeX math? (true/false)
 math = false
 
-# Does this page require source code highlighting? (true/false)
-highlight = true
-
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 
 +++
