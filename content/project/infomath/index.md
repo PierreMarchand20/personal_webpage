@@ -11,7 +11,7 @@ tags = []
 summary = "Seminar on softwares and informatics tools for mathematicians"
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://infomath.netlify.com"
+external_link = "https://infomath.gitlab.io"
 
 # Does the project detail page use math formatting?
 math = false
