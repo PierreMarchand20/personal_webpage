@@ -244,10 +244,10 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  # [[params.social]]
-  #   icon = "envelope"
-  #   icon_pack = "fas"
-  #   link = "mailto:pierre.marchand@inria.fr"
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fas"
+    link = "/#contact"
 
   # [[params.social]]
   #   icon = "twitter"
