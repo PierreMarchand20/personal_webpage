@@ -34,7 +34,7 @@ highlight = true
 +++
 I have this general interest for computer tools that improve your workflow and I truly believe it needs to be more widespread in the mathematical community. It helps to be more efficient, to convey your new ideas and simply to be more confortable in your research. I am far from being an expert and I am still learning everyday, do not hesitate to contact me if you have remarks or suggestions.
 
-With this in mind, I am one of the organizers of the seminar [Infomath](https://infomath.gitlab.io) and I gave some talks about tools that may interest you. In this page, I will also put some tools/information that I think could be helpful for others. If needed, I could write a post to go more in-depth on a particular tool.
+With this in mind, I am one of the organizers of the seminar [Infomath](https://ljll.math.upmc.fr/infomath) and I gave some talks about tools that may interest you. In this page, I will also put some tools/information that I think could be helpful for others. If needed, I could write a post to go more in-depth on a particular tool.
 
 Here's some of my repositories with the tools that I use:
 
