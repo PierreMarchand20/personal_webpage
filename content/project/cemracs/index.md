@@ -33,10 +33,10 @@ highlight = true
   focal_point = "center"
 
   # Show image only in page previews?
-  preview_only = false
-+++
+  preview_only = true
 
 +++
+
 ## CEMRACS 2016 Numerical challenges in parallel scientific computing July 18th - August 26th 
 I attended a one-week course on HPC and numerical methods, followed by a five-week project supervised by [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/), Ibtihel Ben Gharbia and Pierre-Henri Tournier. I worked for six weeks on the project ElastoPhi with [Marcella Bonazzoli](https://www.ljll.math.upmc.fr/bonazzoli/).
 

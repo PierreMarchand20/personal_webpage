@@ -13,6 +13,7 @@ weight = 5
     "Domain Decomposition Methods",
     "Boundary Integral Equations",
     "Scientific Computing",
+    "Computer tools",
   ]
 
 # List your qualifications (such as academic degrees).
