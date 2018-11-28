@@ -43,7 +43,7 @@ projects = ["cemracs"]
 tags = ["Compression","hierarchical"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://www.esaim-proc.org/articles/proc/pdf/2018/03/proc_esaim2018_135.pdf"
 url_preprint = "https://hal.inria.fr/hal-01644518/document"
 url_code = "https://github.com/xclaeys/ElastoPhi"
 url_dataset = ""

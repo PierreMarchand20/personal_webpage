@@ -12,6 +12,7 @@ weight = 5
   interests = [
     "Domain Decomposition Methods",
     "Boundary Integral Equations",
+    "Numerical analysis",
     "Scientific Computing",
     "Computer tools",
   ]

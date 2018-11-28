@@ -8,6 +8,9 @@ draft = false
 time_start = 2018-04-12T13:00:00
 time_end = 2018-04-12T15:00:00
 
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = ["Pierre Marchand"]
+
 # Abstract and optional shortened version.
 abstract = ""
 abstract_short = ""
@@ -32,7 +35,7 @@ projects = ["computer tools"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["git"]
 
 # Links (optional).
 url_pdf = ""

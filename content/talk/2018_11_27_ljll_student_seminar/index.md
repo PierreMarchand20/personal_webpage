@@ -1,12 +1,12 @@
 +++
 title = "Boundary Integral Equation and Domain Decomposition Methods"
-date = 2018-10-24T15:16:58+02:00
+date = 2018-11-27T17:17:10+01:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-10-25T13:00:00
-time_end = 2018-10-25T13:00:00
+time_start = 2018-11-27T17:17:10+01:00
+time_end = 2018-11-27T17:17:10+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Pierre Marchand"]
@@ -16,8 +16,8 @@ abstract = "Boundary integral equations (BIE) are a reformulation of partial dif
 abstract_short = ""
 
 # Name of event and optional event URL.
-event = "CEREMADE PhD student seminar"
-event_url = "https://www.ceremade.dauphine.fr/fr/seminaires/seminaire-des-jeunes-chercheurs.html"
+event = "LJLL PhD student seminar"
+event_url = "https://www.ljll.math.upmc.fr/gtt/"
 
 # Location of event.
 location = "Paris, France"
@@ -33,6 +33,14 @@ selected = false
 #   Otherwise, set `projects = []`.
 projects = []
 
+# Slides (optional).
+#   Associate this page with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["BEM","DDM","Boundary integral method","domain decomposition method"]
@@ -43,9 +51,6 @@ url_slides = ""
 url_video = ""
 url_code = ""
 
-# Does the content use math formatting?
-math = true
-
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
@@ -54,5 +59,5 @@ math = true
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Right"
+  focal_point = ""
 +++
