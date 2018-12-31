@@ -63,7 +63,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = ""
-  address = "Office 324, Corridor 15-25\n Laboratoire Jacques-Louis Lions\n Sorbonne Université\n 4 place Jussieu\n 75005 Paris\n FRANCE"
+  address = "Office 324, Corridor 15-25<br> Laboratoire Jacques-Louis Lions<br> Sorbonne Université<br> 4 place Jussieu<br> 75005 Paris<br> FRANCE"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+33 1 44 27 91 55"
   # skype = "echo123"
