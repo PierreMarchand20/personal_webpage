@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+  <head>
+    {{ $css := .Site.Data.assets.css }}
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Source Themes Academic {{ .Site.Data.academic.version }}">
+  
+    <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+    <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
+    <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}">
+  
+    <link rel="canonical" href="{{ .Permalink }}">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="/css/{{.Params.theme}}.css">
+    <link rel="stylesheet" type="text/css" href="/css/{{.Params.theme}}-fonts.css">
+
+  </head>
+  <body>
+    <textarea id="source">
+{{ block "main" . }}{{ end }}
+      </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+   
+    {{ if or .Params.math .Site.Params.math }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+
+      // Setup MathJax
+      MathJax.Hub.Config({
+          tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+      });
+
+      MathJax.Hub.Configured();
+    </script>
+    {{ end }}
+  </body>
+</html>
+
+
+
+
