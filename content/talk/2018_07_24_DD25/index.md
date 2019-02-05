@@ -7,6 +7,7 @@ draft = false
 #   End time can optionally be hidden by prefixing the line with `#`.
 time_start = 2018-07-24T18:21:46+02:00
 time_end = 2018-07-24T18:21:46+02:00
+all_day = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Pierre Marchand"]
@@ -22,8 +23,8 @@ event_url = "https://dd25.math.mun.ca"
 # Location of event.
 location = "St John's, Canada"
 
-# Is this a selected talk? (true/false)
-selected = false
+# Is this a Featured talk? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.

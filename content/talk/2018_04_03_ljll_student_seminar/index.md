@@ -7,6 +7,7 @@ draft = false
 #   End time can optionally be hidden by prefixing the line with `#`.
 time_start = 2018-04-03T18:12:40+02:00
 time_end = 2018-04-03T18:12:40+02:00
+all_day = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Pierre Marchand"]
@@ -22,8 +23,8 @@ event_url = "https://www.ljll.math.upmc.fr/gtt/"
 # Location of event.
 location = "Paris, France"
 
-# Is this a selected talk? (true/false)
-selected = false
+# Is this a Featured talk? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.

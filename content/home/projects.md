@@ -1,8 +1,7 @@
 +++
 # Projects widget.
-widget = "projects"
-active = true
-date = 2016-04-20T00:00:00
+widget = "projects"  # Do not modify this line!
+active = true  # Activate this widget? true/false
 
 title = "Projects"
 subtitle = ""
@@ -16,9 +15,17 @@ weight = 50
 folder = "project"
 
 # View.
-# Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards.
-view = 1
+#   1 = List
+#   3 = Card
+#   5 = Showcase
+view = 3
+
+# Widget layout
+# Legend: 0 = two columns (default), 1 = single column
+widget_layout = 0
+
+# For Showcase view, flip alternate rows?
+flip_alt_rows = false
 
 # Filter toolbar.
 
@@ -29,17 +36,17 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
+#[[filter]]
+#  name = "All"
+#  tag = "*"
 #
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
+#[[filter]]
+#  name = "Deep Learning"
+#  tag = "Deep Learning"
 #
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+#[[filter]]
+#  name = "Other"
+#  tag = "Demo"
 
 +++
 

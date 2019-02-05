@@ -7,6 +7,7 @@ draft = false
 #   End time can optionally be hidden by prefixing the line with `#`.
 time_start = 2018-10-25T13:00:00
 time_end = 2018-10-25T13:00:00
+all_day = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Pierre Marchand"]
@@ -22,8 +23,8 @@ event_url = "https://www.ceremade.dauphine.fr/fr/seminaires/seminaire-des-jeunes
 # Location of event.
 location = "Paris, France"
 
-# Is this a selected talk? (true/false)
-selected = false
+# Is this a Featured talk? (true/false)
+featured = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
