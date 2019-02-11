@@ -10,7 +10,7 @@ time_end = 2019-02-27T00:00:00
 all_day = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Pierre Marchand"]
+authors = ["moi"]
 
 # Abstract and optional shortened version.
 abstract = "Boundary integral equations are reformulations of partial differential equations with non-local integral operators. Widely used in acoustics, electromagnetism and mechanics, they have the advantage to reduce the dimension of the geometric domain and they naturally satisfy conditions at infinity for problems on open domains. But the matrices obtained after discretisation have the disadvantage to be fully populated, which leads us to use iterative linear solvers, such as conjugated gradient or GMRes, to solve the associated linear systems. To stabilise the number of iterations of these solvers with respect to the mesh size, a classical technique is to use a preconditioner. \\ In this talk, we will present a method to precondition these matrices using domain decomposition methods, and more precisely, Schwarz Methods with a particular coarse space named GenEO whose construction is based on Generalized Eigenproblems in the Overlaps. This is a joint work with Xavier Claeys and Frédéric Nataf."

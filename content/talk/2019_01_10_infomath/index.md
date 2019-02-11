@@ -10,7 +10,7 @@ time_end = 2019-01-10T00:00:00
 all_day = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Pierre Marchand"]
+authors = ["moi"]
 
 # Abstract and optional shortened version.
 abstract = ""
