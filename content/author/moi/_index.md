@@ -28,10 +28,7 @@ interests = [
 ]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "(PhD in applied mathematics)"
-  institution = "Inria - Sorbonne Université"
-  year = 2019
+
 
 [[education.courses]]
   course = "Master's degree in applied mathematics"
