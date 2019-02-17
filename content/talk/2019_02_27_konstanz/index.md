@@ -1,7 +1,6 @@
 +++
 title = "Robust coarse spaces for the boundary element method"
 date = 2019-02-05T00:00:00  # Schedule page publish date.
-draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -24,7 +23,7 @@ event_url = ""
 location = "Konstanz, Germany"
 
 # Is this a featured talk? (true/false)
-featured = false
+featured = true
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
