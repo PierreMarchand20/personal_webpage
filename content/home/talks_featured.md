@@ -10,8 +10,9 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 29
 
-# List format.
-#   0 = Simple
-#   1 = Detailed
-view = 0
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+view = 2
 +++
