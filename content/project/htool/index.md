@@ -3,7 +3,7 @@ title = "Htool"
 date = 2018-09-20T19:04:53+02:00
 draft = false
 
-authors = ["moi","Pierre-Henri Tournier"]
+authors = ["admin","Pierre-Henri Tournier"]
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

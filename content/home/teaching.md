@@ -1,16 +1,16 @@
 +++
-# Custom widget.
-# An example of using the custom widget to create your own homepage section.
-# To create more sections, duplicate this file and edit the values below as desired.
-widget = "custom"
+# A Demo section created with the Blank widget.
+# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
+# Add more sections by duplicating this file and customizing to your requirements.
+
+widget = "blank"
+headless = true  # This file represents a page section.
 active = true
+weight = 60  # Order that this section will appear.
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Teaching"
 subtitle = ""
-
-# Order that this section will appear in.
-weight = 60
 
 +++
 

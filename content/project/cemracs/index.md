@@ -3,7 +3,7 @@ title = "ElastoPhi "
 date = 2018-09-14T15:20:57+02:00
 draft = false
 
-authors = ["Ibtihel Ben Gharbia","Marcella Bonazzoli", "Xavier Claeys","moi", "Pierre-Henri Tournier"]
+authors = ["Ibtihel Ben Gharbia","Marcella Bonazzoli", "Xavier Claeys","admin", "Pierre-Henri Tournier"]
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

@@ -1,13 +1,12 @@
 +++
 # Contact widget.
 widget = "contact"
+headless = true  # This file represents a page section.
 active = true
+weight = 130  # Order that this section will appear.
 
 title = "Contact"
 subtitle = ""
-
-# Order that this section will appear in.
-weight = 70
 
 # Automatically link email and phone?
 autolink = true

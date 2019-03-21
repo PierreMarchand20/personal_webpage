@@ -4,7 +4,7 @@ date = 2018-09-14T15:21:33+02:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Ibtihel Ben Gharbia","Marcella Bonazzoli", "Xavier Claeys","moi", "Pierre-Henri Tournier"]
+authors = ["Ibtihel Ben Gharbia","Marcella Bonazzoli", "Xavier Claeys","admin", "Pierre-Henri Tournier"]
 
 # Publication type.
 # Legend:
@@ -23,7 +23,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Because of the non-local nature of the integral kernels at play, the discretization of boundary integral equations leads to dense matrices, which would imply high computational complexity. Acceleration techniques, such as hierarchical matrix strategies combined with Adaptive Cross Approximation (ACA), are available in literature. Here we apply such a technique to the solution of an elastostatic problem, arising from industrial applications, posed at the surface of highly irregular cracks networks."
-abstract_short = ""
+summary = ""
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -55,8 +55,8 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
-url_custom = [{name = "HAL", url = "https://hal.archives-ouvertes.fr/hal-01644518"}]
+# links = [{name = "Custom Link", url = "http://example.org"}]
+links = [{name = "HAL", url = "https://hal.archives-ouvertes.fr/hal-01644518"}]
 
 # Digital Object Identifier (DOI)
 doi = "10.1051/proc/201863135"

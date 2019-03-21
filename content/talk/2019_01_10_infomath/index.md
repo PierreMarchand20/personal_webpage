@@ -1,15 +1,17 @@
 +++
 title = "Git: why and how ?"
-date = 2019-01-10T16:00:00
-
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["moi"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2019-01-10T16:00:00
-time_end = 2019-01-10T17:00:00
-all_day = false
+date = 2019-01-10T16:00:00
+date_end = 2019-01-10T17:00:00
+all_day = true
+
+# Schedule page publish date (NOT talk date).
+publishDate = 2019-01-10T16:00:00
+
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = []
 
 # Abstract and optional shortened version.
 abstract = ""
