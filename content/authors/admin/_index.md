@@ -1,0 +1,73 @@
+---
+# Display name
+name: Pierre Marchand
+
+# Username (this should match the folder name)
+authors:
+  - admin
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: PhD student in applied mathematics
+
+# Organizations/Affiliations
+organizations:
+  - name: Inria - team ALPINES
+    url: 'https://www.inria.fr/equipes/alpines'
+
+# Short bio (displayed in user profile at end of posts)
+bio: ''
+
+interests:
+  - Domain Decomposition Methods
+  - Boundary Integral Equations
+  - Numerical analysis
+  - Scientific Computing
+  - Computer tools
+
+education:
+  courses:
+    - course: Master's degree in applied mathematics
+      institution: Sorbonne Université
+      year: 2016
+    - course: Engineer's degree
+      institution: École Nationale des Ponts et Chaussées
+      year: 2016
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: '#contact'
+  - icon: github
+    icon_pack: fab
+    link: //github.com/PierreMarchand20
+  - icon: cv
+    icon_pack: ai
+    link: 'https://gofile.me/265ns/5g90mkvwW'
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ""
+  
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.  
+# user_groups:
+# - Researchers
+# - Visitors
+---
+
+I am a PhD student under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Inria and at Laboratoire Jacques-Louis Lions (LJLL), working in the joint Inria-LJLL project team Alpines. My thesis is funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
+
+My research focuses on Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool]({{< ref "/project/htool/index.md" >}}) with a parallelized matrix-vector product using MPI.
+
+Starting next October, I will be a Research Associate in [Euan Spence](http://people.bath.ac.uk/eas25/)'s team at the University of Bath. I will be part of the EPSRC-funded project [At the interface between semiclassical analysis and numerical analysis of wave propagation problems](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R005591/1).
