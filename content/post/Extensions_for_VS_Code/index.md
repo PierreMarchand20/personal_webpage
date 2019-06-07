@@ -60,7 +60,7 @@ Do not hesitate to click on the link for each extension, they usually have gifs 
 
 ## For research
 
-- [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop): it turns VS Code into the best editor I know for $\LaTeX$. It already has all you need but they find ways to add new features anyway. You have the usual features (definition of compiling toolchain, support for multi file project, snippets, shortcuts...). But take the time to read their documentation, but here's some original features:
+- [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop): it turns VS Code into the best editor I know for $\LaTeX$. It already has all you need but they find ways to add new features anyway. You have the usual features (definition of compiling toolchain, support for multi file project, snippets, shortcuts...). But take the time to read their documentation, but here's some original features:
   - Errors and warnings (and linting if you use ChkTeX) will appear in the document and the Problems pane.
   - Hovering: putting the cursor on elements can have several effects:
     - On a package name, you will be able to open its documentation,
@@ -68,7 +68,7 @@ Do not hesitate to click on the link for each extension, they usually have gifs 
     - On a reference, it previews what is referenced,
     - On a citation, it previews the bibtex reference, etc.
   - Intellisense: it will autocomplete bib citations, references, commands, files... with an easy way to look for the right keyword.
-- [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown): really useful to take notes during a meeting or a presentation. VS Code comes with a built-in previewer and this extension adds some editing features for markdown (shortcuts, list editing, table formatter...). There are other extensions to add linting and other previewers.
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): really useful to take notes during a meeting or a presentation. VS Code comes with a built-in previewer and this extension adds some editing features for markdown (shortcuts, list editing, table formatter...). There are other extensions to add linting and other previewers.
 - [VSNotes](https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes): a handy extension to organize your markdown note (see previous bullet point).
 - In research, we usually have to handle data stored in several format, and it can be useful to look at the raw data.
   - JSON: it is the format used for the configuration files, so it has built-in support.
