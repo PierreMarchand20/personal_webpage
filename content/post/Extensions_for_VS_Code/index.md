@@ -80,13 +80,13 @@ Do not hesitate to click on the link for each extension, they usually have gifs 
 
 ## For coding
 
-Most of the languages are supported, here's the ones I used:
+Most of the languages are supported, here's the ones I use:
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python): it provides everything you need: IntelliSense, linting, debugging, formatting, etc. One thing I like is that Jupyter Notebooks can be used directly in VS Code (and easily exported or imported with the usual format), and the format of the file is easier to version since it is a simple `.py` file.
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools): it also provides everything you need: auto-completion, debugging, previews declaration when hovering, code navigation, etc.
 
 ## Conclusion
 
-The community around VS Code is really alive and brings a lot of new features to this editor. Microsoft (who develops the core of VS Code) also pushes for new developments and regularly adds new features. Each time I had a problem with an extension, I contacted the people who were developing it and I always received useful help and advise, so do not hesitate to leave issues (after checking that it had not already been done of course :wink:).
+The community around VS Code is really active and brings a lot of new features to this editor. Microsoft (who develops the core of VS Code) also pushes for new developments and regularly adds new features. Each time I had a problem with an extension, I contacted the people who were developing it and I always received useful help and advise, so do not hesitate to leave issues (after checking that it had not already been done of course :wink:).
 
 *Do not hesitate to contact me if you have any remarks or questions !*
