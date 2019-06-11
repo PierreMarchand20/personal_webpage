@@ -19,6 +19,9 @@ featured = false
 tags = ["computer tools","vscode"]
 categories = []
 
+# Does the project detail page use math formatting?
+math = true
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
