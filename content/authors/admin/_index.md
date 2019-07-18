@@ -50,6 +50,9 @@ social:
   - icon: cv
     icon_pack: ai
     link: 'https://gofile.me/265ns/5g90mkvwW'
+  - icon: orcid
+    icon_pack: ai
+    link: "https://orcid.org/0000-0002-2522-6837"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
