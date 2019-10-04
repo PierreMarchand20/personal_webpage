@@ -25,7 +25,7 @@ event_url = ""
 location = "Konstanz, Germany"
 
 # Is this a featured talk? (true/false)
-featured = true
+featured = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
