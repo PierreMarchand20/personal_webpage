@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Assistant in applied mathematics
+role: Research Associate in applied mathematics
 
 # Organizations/Affiliations
 organizations:
