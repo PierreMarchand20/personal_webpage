@@ -1,5 +1,5 @@
 +++
-title = "Boundary integral multi-trace formulations and Optimised Schwarz Methods"
+title = "Two-level preconditioning for h-version boundary element approximation of hypersingular operator with GenEO"
 date = 2019-07-26T17:07:23+01:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

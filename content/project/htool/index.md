@@ -42,6 +42,7 @@ Htool is an implementation of hierarchical matrices (cf. this [reference](http:/
 - preconditioning techniques using domain decomposition methods,
 - the possibility to use Htool with any generator of coefficients (e.g., your own BEM library),
 - an interface with [HPDDM](https://github.com/hpddm/hpddm) for iterative solvers,
-- GUI and several service functions to display informations about matrix structures and timing.
+- GUI and several service functions to display informations about matrix structures and timing,
+- a Python interface.
 
 Htool is written by Pierre-Henri Tournier and I, it is available on [GitHub](https://github.com/PierreMarchand20/htool).

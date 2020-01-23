@@ -1,63 +1,59 @@
-+++
-title = "Introduction to domain decomposition methods"
+---
+
+title: Introduction to domain decomposition methods
+event: LJLL PhD student seminar
+event_url: 'https://www.ljll.math.upmc.fr/gtt/'
+
+location: 'Paris, France'
+
+abstract: ''
+summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date = 2018-04-03T18:12:40+02:00
-date_end = 2018-04-03T18:12:40+02:00
-all_day = true
+date: "2018-04-03T16:12:40.000Z"
+date_end: ""
+all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate = 2018-09-20T18:12:40+02:00
+publishDate: "2018-09-20T16:12:40.000Z"
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
-
-# Location of event.
-location = "Paris, France"
-
-# Name of event and optional event URL.
-event = "LJLL PhD student seminar"
-event_url = "https://www.ljll.math.upmc.fr/gtt/"
-
-# Abstract and optional shortened version.
-abstract = ""
-summary = ""
-
-# Is this a Featured talk? (true/false)
-featured = false
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["DDM","domain decomposition methods"]
-
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
+authors: []
+tags: [DDM, domain decomposition methods]
 
 
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+# Is this a featured talk? (true/false)
+featured: false
 
-# Does the content use math formatting?
-math = false
+image:
+  caption: ''
+  focal_point: Right
+url_pdf: ''
+url_slides: ''
+url_video: ''
+url_code: ''
 
-# Does the content use source code highlighting?
-highlight = true
+# links:
+# - icon: twitter
+#   icon_pack: fab
+#   name: Follow
+#   url: https://twitter.com/georgecushen
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# # Markdown Slides (optional).
+# #   Associate this talk with Markdown slides.
+# #   Simply enter your slide deck's filename without extension.
+# #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+# #   Otherwise, set `slides = ""`.
+# slides: example
 
-+++
+# # Projects (optional).
+# #   Associate this post with one or more of your projects.
+# #   Simply enter your project's folder or file name without extension.
+# #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+# #   Otherwise, set `projects = []`.
+# projects:
+# - internal-project
+
+# Enable math on this page?
+math: false
+---

@@ -10,17 +10,18 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student in applied mathematics
+role: Research Assistant in applied mathematics
 
 # Organizations/Affiliations
 organizations:
-  - name: Inria - team ALPINES
-    url: 'https://www.inria.fr/equipes/alpines'
+  - name: University of Bath
+    url: 'https://www.bath.ac.uk/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: ''
 
 interests:
+  - Wave propagation problems
   - Domain Decomposition Methods
   - Boundary Integral Equations
   - Numerical analysis
@@ -29,6 +30,9 @@ interests:
 
 education:
   courses:
+    - course: PhD in applied mathematics
+      institution: Sorbonne Université
+      year: 2020
     - course: Master's degree in applied mathematics
       institution: Sorbonne Université
       year: 2016
@@ -69,8 +73,10 @@ email: ""
 # - Visitors
 ---
 
-I am a PhD student under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Inria and at Laboratoire Jacques-Louis Lions (LJLL), working in the joint Inria-LJLL project team Alpines. My thesis is funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
+I am a postdoctoral researcher at the University of Bath, where I am working with [Euan Spence](http://people.bath.ac.uk/eas25/). I am part of the EPSRC-funded project [At the interface between semiclassical analysis and numerical analysis of wave propagation problems](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R005591/1).
 
-My research focuses on Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool]({{< ref "/project/htool/index.md" >}}) with a parallelized matrix-vector product using MPI.
+My research focuses on wave propagation problems, Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool]({{< ref "/project/htool/index.md" >}}) with a parallelized matrix-vector product using MPI.
 
-Starting next October, I will be a Research Associate in [Euan Spence](http://people.bath.ac.uk/eas25/)'s team at the University of Bath. I will be part of the EPSRC-funded project [At the interface between semiclassical analysis and numerical analysis of wave propagation problems](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R005591/1).
+Previously, I did my Ph.D under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Laboratoire Jacques-Louis Lions ([LJLL](https://www.ljll.math.upmc.fr)) in Sorbonne Université, and I was a member of the joint Inria-LJLL project team [Alpines](https://team.inria.fr/alpines/). My thesis was funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
+
+

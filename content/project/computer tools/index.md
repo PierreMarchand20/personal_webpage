@@ -3,6 +3,8 @@ title = "Computer tools"
 date = 2018-10-01T13:51:35+02:00
 draft = false
 
+authors = ["admin"]
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["computer tools","personal project"]

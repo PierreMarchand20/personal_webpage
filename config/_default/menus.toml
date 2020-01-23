@@ -19,9 +19,27 @@
   weight = 3
 
 [[main]]
+  identifier = "Talks"
   name = "Talks"
-  url = "#talks"
   weight = 3
+
+[[main]]
+  parent = "Talks"
+  name = "Featured"
+  url = "#talks_featured"
+  weight = 3
+
+[[main]]
+  parent = "Talks"
+  name = "Recent & Upcoming"
+  url = "#talks"
+  weight = 4
+
+[[main]]
+  parent = "Talks"
+  name = "All"
+  url = "talk"
+  weight = 5
 
 [[main]]
   name = "Projects"

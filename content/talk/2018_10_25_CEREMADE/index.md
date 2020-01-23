@@ -1,60 +1,49 @@
-+++
-title = "Boundary Integral Equation and Domain Decomposition Methods"
+---
+title: Boundary Integral Equation and Domain Decomposition Methods
+event: CEREMADE PhD student seminar
+event_url: >-
+  https://www.ceremade.dauphine.fr/fr/seminaires/seminaire-des-jeunes-chercheurs.html
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date = 2018-10-25T13:00:00
-date_end = 2018-10-25T13:00:00
-all_day = true
 
-# Schedule page publish date (NOT talk date).
-publishDate = 2018-10-24T15:16:58+02:00
+location: 'Paris, France'
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+abstract: >-
+  Boundary integral equations (BIE) are a reformulation of partial differential
+  equations with non-local integral operators. It has the advantage to reduce
+  the dimension of the geometric domain and to be able to naturally formulate
+  problems on open domains. This kind of reformulation is widely used in
+  acoustic, electromagnetic and mechanics. The matrices obtained after
+  discretisation of these equations have the disadvantage to be fully populated,
+  which leads us to use iterative linear solvers such as conjugated gradient or
+  GMRes to solve the associated linear systems. To stabilize the number of
+  iterations of these solvers with respect to the mesh size, a classical
+  technique is to use a preconditioner. In this talk, after introducing BIE, we
+  will present a method to precondition these matrices using domain
+  decompositions methods and its analysis. This is a joint work with Xavier
+  Claeys and Frédéric Nataf.
+summary: ''
 
-# Abstract and optional shortened version.
-abstract = "Boundary integral equations (BIE) are a reformulation of partial differential equations with non-local integral operators. It has the advantage to reduce the dimension of the geometric domain and to be able to naturally formulate problems on open domains. This kind of reformulation is widely used in acoustic, electromagnetic and mechanics. The matrices obtained after discretisation of these equations have the disadvantage to be fully populated, which leads us to use iterative linear solvers such as conjugated gradient or GMRes to solve the associated linear systems. To stabilize the number of iterations of these solvers with respect to the mesh size, a classical technique is to use a preconditioner. In this talk, after introducing BIE, we will present a method to precondition these matrices using domain decompositions methods and its analysis. This is a joint work with Xavier Claeys and Frédéric Nataf."
-summary = ""
+date: "2018-10-25T13:00:00"
+date_end: ""
+all_day: true
 
-# Name of event and optional event URL.
-event = "CEREMADE PhD student seminar"
-event_url = "https://www.ceremade.dauphine.fr/fr/seminaires/seminaire-des-jeunes-chercheurs.html"
+publishDate: "2018-10-24T13:16:58.000Z"
 
-# Location of event.
-location = "Paris, France"
 
-# Is this a Featured talk? (true/false)
-featured = false
+authors: []
+tags:
+  - BEM
+  - DDM
+  - Boundary integral method
+  - domain decomposition method
+  - 
+featured: false
+projects: []
 
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
-#   `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects = []
+url_pdf: ''
+url_slides: ''
+url_video: ''
+url_code: ''
+math: true
 
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["BEM","DDM","Boundary integral method","domain decomposition method"]
-
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
-
-# Does the content use math formatting?
-math = true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Right"
-+++
+---

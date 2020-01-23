@@ -19,7 +19,7 @@ authors = ["Xavier Claeys","admin"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "(Submitted to Computers and Mathematics with Applications)"
+publication = "(Accepted in Computers and Mathematics with Applications)"
 publication_short = ""
 
 # Abstract and optional shortened version.
