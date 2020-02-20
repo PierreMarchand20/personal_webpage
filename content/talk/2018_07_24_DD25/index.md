@@ -3,7 +3,7 @@ title: Two-level preconditioning for BEM with GenEO
 event: 25th International Domain Decomposition Conference
 event_url: 'https://dd25.math.mun.ca'
 
-location: 'St John''s, Canada'
+location: 'Memorial University of Newfoundland, St John''s, Canada'
 
 
 abstract: >-

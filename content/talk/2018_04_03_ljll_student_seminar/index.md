@@ -4,7 +4,7 @@ title: Introduction to domain decomposition methods
 event: LJLL PhD student seminar
 event_url: 'https://www.ljll.math.upmc.fr/gtt/'
 
-location: 'Paris, France'
+location: 'Laboratoire Jacques-Louis Lions, Sorbonne Université, Paris, France'
 
 abstract: ''
 summary: ''

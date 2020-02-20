@@ -1,9 +1,9 @@
 ---
 title: Robust coarse spaces for the boundary element method
-event: University of Konstanz
+event: 'Oberseminar "Numerical Optimization'
 event_url: ''
 
-location: 'Konstanz, Germany'
+location: 'University of Konstanz, Germany'
 
 abstract: >-
   Boundary integral equations are reformulations of partial differential

@@ -4,7 +4,7 @@ event: Symposium of the International Association for Boundary Element Methods
   (IABEM)
 event_url: 'https://project.inria.fr/iabem2018/'
 
-location: 'Paris, France'
+location: 'Sorbonne Université, Paris, France'
 
 
 abstract: "Domain Decomposition Methods (DDM), such as Additive Schwarz (AS), can be used

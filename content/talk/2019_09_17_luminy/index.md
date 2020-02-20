@@ -3,7 +3,7 @@ title: Robust coarse spaces for the boundary element method
 event: 'Parallel Solution Methods for Systems Arising from PDEs '
 event_url: 'https://conferences.cirm-math.fr/2064.html'
 
-location: 'Luminy, France'
+location: 'CIRM, Luminy, France'
 
 abstract: >-
   Domain Decomposition Methods (DDM), such as Additive Schwarz (AS), can be used

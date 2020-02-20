@@ -5,7 +5,7 @@ event_url: >-
   https://www.ceremade.dauphine.fr/fr/seminaires/seminaire-des-jeunes-chercheurs.html
 
 
-location: 'Paris, France'
+location: 'Université Paris-Dauphine, CEREMADE, Paris, France'
 
 abstract: >-
   Boundary integral equations (BIE) are a reformulation of partial differential

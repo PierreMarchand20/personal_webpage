@@ -3,7 +3,7 @@ title: Boundary Integral Equation and Domain Decomposition Methods
 event: LJLL PhD student seminar
 event_url: 'https://www.ljll.math.upmc.fr/gtt/'
 
-location: 'Paris, France'
+location: 'Laboratoire Jacques-Louis Lions, Sorbonne Université, Paris, France'
 
 abstract: >-
   Boundary integral equations (BIE) are a reformulation of partial differential

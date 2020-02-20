@@ -3,7 +3,7 @@ title: 'Git: why and how ?'
 event: Infomath - Seminar on computer tools for mathematician
 event_url: 'https://infomath.gitlab.io'
 
-location: 'Paris, France'
+location: 'Laboratoire Jacques-Louis Lions, Sorbonne Université, Paris, France'
 
 abstract: ''
 summary: Small introduction to git where I try to convince you that you should use it.
