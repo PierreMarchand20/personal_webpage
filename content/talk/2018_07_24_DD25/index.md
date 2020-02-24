@@ -45,6 +45,9 @@ tags:
   - Boundary integral method
   - domain decomposition method
 
+categories: 
+  - conference
+
 
 projects: []
 featured: false

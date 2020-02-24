@@ -22,6 +22,9 @@ authors: []
 tags:
   - git
 
+categories: 
+  - other
+
 # Is this a featured talk? (true/false)
 featured: false
 projects:

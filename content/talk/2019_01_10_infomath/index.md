@@ -21,6 +21,9 @@ authors: []
 tags:
   - git
 
+categories: 
+  - other
+
 
 featured: true
 projects:

@@ -31,8 +31,14 @@
 
 [[main]]
   parent = "Talks"
-  name = "Recent & Upcoming"
-  url = "#talks"
+  name = "Conference talks"
+  url = "#conference_talks"
+  weight = 4
+
+[[main]]
+  parent = "Talks"
+  name = "Other talks"
+  url = "#other_talks"
   weight = 4
 
 [[main]]

@@ -41,6 +41,9 @@ publishDate: '2019-02-05T00:00:00'
 authors: []
 tags: []
 
+categories: 
+  - conference
+
 featured: true
 projects: []
 slides: ''

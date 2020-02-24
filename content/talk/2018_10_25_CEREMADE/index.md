@@ -36,7 +36,11 @@ tags:
   - DDM
   - Boundary integral method
   - domain decomposition method
-  - 
+
+categories: 
+  - other
+
+
 featured: false
 projects: []
 

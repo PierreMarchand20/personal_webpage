@@ -17,6 +17,8 @@ publishDate: '2019-02-05T00:00:00'
 
 authors: []
 tags: []
+categories: 
+  - other
 
 featured: false
 projects: []

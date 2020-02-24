@@ -33,6 +33,9 @@ tags:
   - Boundary integral method
   - domain decomposition method
 
+categories: 
+  - other
+
 
 
 featured: false

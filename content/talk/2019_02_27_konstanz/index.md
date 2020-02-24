@@ -36,6 +36,8 @@ featured: false
 projects: []
 slides: ''
 tags: []
+categories: 
+  - other
 url_pdf: ''
 url_slides: ''
 url_video: ''

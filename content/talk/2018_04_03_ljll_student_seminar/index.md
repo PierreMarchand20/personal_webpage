@@ -21,6 +21,9 @@ publishDate: "2018-09-20T16:12:40.000Z"
 authors: []
 tags: [DDM, domain decomposition methods]
 
+categories: 
+  - other
+
 
 # Is this a featured talk? (true/false)
 featured: false
