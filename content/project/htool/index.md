@@ -45,4 +45,4 @@ Htool is an implementation of hierarchical matrices (cf. this [reference](http:/
 - GUI and several service functions to display informations about matrix structures and timing,
 - a Python interface.
 
-Htool is written by Pierre-Henri Tournier and I, it is available on [GitHub](https://github.com/PierreMarchand20/htool).
+Htool is written by Pierre-Henri Tournier and I, it is available on [GitHub](https://github.com/htool-ddm/htool).
