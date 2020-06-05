@@ -20,7 +20,7 @@ authors = ["Ibtihel Ben Gharbia","Marcella Bonazzoli", "Xavier Claeys","admin", 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "ESAIM: Proceedings and Surveys, June 2018, Vol. 63, p. 135-151"
+publication = "_ESAIM: Proceedings and Surveys_, June 2018, Vol. 63, p. 135-151"
 publication_short = ""
 
 # Abstract and optional shortened version.

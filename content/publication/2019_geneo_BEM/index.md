@@ -1,6 +1,9 @@
 +++
 title = "Two-level preconditioning for h-version boundary element approximation of hypersingular operator with GenEO"
-date = 2019-07-26T17:07:23+01:00
+date = 2020-12-26T17:07:23+01:00
+
+# Schedule page publish date (NOT publication's date).
+publishDate= "2017-01-01T00:00:00Z"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["admin","Xavier Claeys","Pierre Jolivet","Frédéric Nataf","Pierre-Henri Tournier"]
