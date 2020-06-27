@@ -36,6 +36,13 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+# Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
+[permalinks]
+  authors = "/author/:slug/"
+  tags = "/tag/:slug/"
+  categories = "/category/:slug/"
+  publication_types = "/publication-type/:slug/"
+
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
@@ -69,3 +76,29 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+  # Related content.
+[related]
+  threshold = 80.0
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+    name = "title"
+    weight = 60.0
+
+  [[related.indices]]
+    name = "summary"
+    weight = 50.0
+
+  [[related.indices]]
+    name = "tags"
+    weight = 80.0
+
+  [[related.indices]]
+    name = "categories"
+    weight = 70.0
+
+  [[related.indices]]
+    name = "authors"
+    weight = 20.0

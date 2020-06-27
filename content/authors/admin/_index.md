@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Pierre Marchand
+title: Pierre Marchand
 
 # Username (this should match the folder name)
 authors:

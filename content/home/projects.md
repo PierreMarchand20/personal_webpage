@@ -3,7 +3,7 @@
 widget = "portfolio"  # Do not modify this line!
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 55  # Order that this section will appear.
 
 title = "Projects"
 subtitle = ""
