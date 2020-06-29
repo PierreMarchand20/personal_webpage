@@ -1,9 +1,9 @@
 +++
-title = "Extensions for VS Code"
+title = "Some extensions for VS Code in 2019"
 subtitle = ""
 
 # Add a summary to display on homepage (optional).
-summary = ""
+summary = "A small list of extensions for VSCode I use"
 
 date = 2019-06-06T23:53:10+02:00
 draft = false
@@ -17,7 +17,7 @@ featured = false
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["computer tools","vscode"]
-categories = []
+categories = ["computer tools"]
 
 # Does the project detail page use math formatting?
 math = true
@@ -94,4 +94,4 @@ Most of the languages are supported, here's the ones I use:
 
 The community around VS Code is really active and brings a lot of new features to this editor. Microsoft (who develops the core of VS Code) also pushes for new developments and regularly adds new features. Each time I had a problem with an extension, I contacted the people who were developing it and I always received useful help and advise, so do not hesitate to leave issues (after checking that it had not already been done of course :wink:).
 
-*Do not hesitate to contact me if you have any remarks or questions !*
+*Do not hesitate to contact me if you have any remarks or questions!*
