@@ -16,7 +16,7 @@ featured = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["computer tools","vscode"]
+tags = ["computer tools","VS Code"]
 categories = ["computer tools"]
 
 # Does the project detail page use math formatting?

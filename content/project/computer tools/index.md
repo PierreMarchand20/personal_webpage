@@ -10,7 +10,7 @@ authors = ["admin"]
 tags = ["computer tools","personal project"]
 
 # Project summary to display on homepage.
-summary = "computer tools for mathematicians and computer scientists"
+summary = "Computer tools for mathematicians and computer scientists"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
