@@ -290,37 +290,37 @@ You can find here live terminal session via [asciinema](https://asciinema.org) v
 
 ### 2.1. Setup
 
-{{< asciinema key="setup" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciinema key="2020_09_09_CTCW_git/setup" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.2. Create History
 
-{{< asciinema key="FirstFile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciinema key="2020_09_09_CTCW_git/FirstFile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.3. Navigating the history
 
 Remark how `HEAD` is said to be on master when on the third commit, but not the others.
 
-{{< asciinema key="Navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/Navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.3. Adding remote
 
 Note how `origin/master` appears now when using `git log`.
 
-{{< asciinema key="Remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/Remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.4. Working with remote
 
 Note that `origin/master` appears on the third commit, while `HEAD` and `master` are on the fourth commit after `git commit`.
 
-{{< asciinema key="Sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/Sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.5. Auto merging
 
-{{< asciinema key="AutoMerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/AutoMerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.6. Merging
 
-{{< asciinema key="Merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/Merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ## 3. References
 
