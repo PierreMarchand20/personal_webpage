@@ -221,7 +221,7 @@ abstract_length: 135
 
 # Load CSS and JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js: []
+plugins_js: ["asciinema-player"]
 
 # Configuration of publication pages.
 publications:
