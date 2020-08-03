@@ -31,32 +31,13 @@ image:
 projects: ["computer tools"]
 ---
 
-Starting with git was an obvious choice, it is the backbone of many tools nowadays, and it will be well-integrated with all the tools we will see in the following CTCW posts. That is why, we will take the time to understand its benefits, and how to use it.
+Starting with git was an obvious choice, it is the backbone of many tools nowadays, and it will be well-integrated with all the tools we will see in the following CTCW posts. That is why, we will take the time to understand its benefits, and how to use it. The presentation will be organized around what git allows you to do: versioning, remote backup, synchronization and collaborative work.
 
 Note that I present command lines to use git, but there exists a lot of graphical interfaces (see this [list](https://git-scm.com/downloads/guis)), but understanding how git works is still necessary to use them. You can also find a [presentation]({{< ref "/talk/2019_01_10_infomath/index.md" >}}) I did a few years ago on git with a similar approach.
 
-Live examples are available in [Section 2](#2-examples) via [asciinema](https://asciinema.org) files. There are not just videos, you can also copy/paste displayed command lines.
+[Live examples](#2-examples) are available via [asciinema](https://asciinema.org) files. Note that there are not just videos, you can also copy/paste displayed command lines.
 
-- [1. Usage](#1-usage)
-  - [1.1. Setup](#11-setup)
-  - [1.2. Versioning](#12-versioning)
-  - [1.3. Back up](#13-back-up)
-  - [1.4. Synchronization](#14-synchronization)
-  - [1.5. Collaboration](#15-collaboration)
-- [2. Examples](#2-examples)
-  - [2.1. Setup](#21-setup)
-  - [2.2. Create History](#22-create-history)
-  - [2.3. Navigating the history](#23-navigating-the-history)
-  - [2.3. Adding remote](#23-adding-remote)
-  - [2.4. Working with remote](#24-working-with-remote)
-  - [2.5. Auto merging](#25-auto-merging)
-  - [2.6. Merging](#26-merging)
-- [3. References](#3-references)
-  - [3.1. General presentations](#31-general-presentations)
-  - [3.2. Specific discussions](#32-specific-discussions)
-  - [3.3. Other tutorials](#33-other-tutorials)
-  - [3.4. To go further](#34-to-go-further)
-
+{{%toc%}}
 
 ## 1. Usage
 
