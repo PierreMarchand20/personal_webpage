@@ -30,9 +30,7 @@ projects: ["computer tools"]
 
 In the following weeks, I will present several tools to improve your development environment, and how I use them together to improve my coding workflow. These posts will be part of a series called Computer Tools and Coding Workflow (CTCW). Today we start with a non-technical post to give some context, motivate the reason of this series, and explain what will follow.
 
-- [1. Disclaimers](#1-disclaimers)
-- [2. Motivation](#2-motivation)
-- [3. Program](#3-program)
+{{% toc %}}
 
 ## 1. Disclaimers
 
