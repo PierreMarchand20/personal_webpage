@@ -54,7 +54,7 @@ git config --global user.email johndoe@example.com
 
 Each modification you make to your repository will be associated with this identity.
 
-The flag `--global` just means that this identity will be used in all the repository you work with on your system. You can always set local configuration to override it, and you can also set other types of configuration variables like the editor used to write commit message, diff tool and so on. We refer to this [page](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) if you want to go further, but it should be enough at first. You can check your configuration with `git config --list`.
+The flag `--global` just means that this identity will be used in all the repository you work with on your system. You can always set local configuration to override it, and you can also set other types of configuration variables like the editor used to write commit messages, diff tool and so on. We refer to this [page](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) if you want to go further, but it should be enough at first. You can check your configuration with `git config --list`.
 
 See [Example](#21-setup).
 
@@ -79,7 +79,9 @@ git add FirstFile.txt
 git commit FirstFile.txt -m "first file added"
 ```
 
-The first command makes the file `FirstFile.txt` *staged*, and the second one commit this version of the file in the repository's history, with a small comment. The repository's history can be represented as a graph/tree, where each commit is a node, containing a state of the whole repository, a comment describing the commit, a unique SHA1 identifier (something like `291bb0`), the commit date, the committer's name, and email address.
+The first command makes the file `FirstFile.txt` *staged*, and the second one commit this version of the file in the repository's history, with a small comment. The repository's history can be represented as a graph/tree, where each commit is a node, containing a state of the whole repository, a comment describing the commit, a unique commit ID (an hexadecimal number of 40 digits), the commit date, the committer's name, and email address.
+
+Note that if you do not add the `-m` flag followed by a string, `git` will open your editor (default to `nano`) for you to write a commit message instead.
 
 By default, the first branch you create is called `master` [^1]. We will see that one repository can contain several branches, but this is an advanced subject. A branch represents a linear history of your repository, and in practice it is a pointer to the last state of a linear history.
 
@@ -105,13 +107,13 @@ Now that you populated your history's repository, you may want to go back and ch
 
 {{< figure src="HEAD_1.drawio.svg" title="Current state to last commit" lightbox="true" >}}
 
-The command `git log` shows your repository's history, i.e., commit messages, the unique SHA1 identifiers, committer's name, and email address.
+The command `git log` shows your repository's history, i.e., commit messages, commit IDs, committer's names, and email addresses. And, `git log -2` will only show these information for the two last commits.
 
 To navigate your history, you can use
 
-- relative references: to checkout the nth of `HEAD` use `HEAD~n`, for example for the second child `git checkout HEAD~2`.
+- relative references: to checkout the second generation ancestor of `HEAD` use `HEAD~2`.
 
-- absolute references: using the unique SHA1 identifier, `git checkout 291bb0`
+- absolute references: using the commit IT, `git checkout 291bb0` (first characters are enough)
 - to return to the last state of your repository, `git checkout master`.
 
 {{< figure src="HEAD_3.drawio.svg" title="`git checkout HEAD~2`" lightbox="true" >}}
@@ -127,7 +129,6 @@ See [Example](#23-navigating-the-history).
 You are lost? `git status` will tell you where you are and what you can do.
 
 {{% /alert %}}
-
 
 ### 1.3. Back up
 
@@ -259,7 +260,7 @@ See [Example](#26-merging).
 
 #### Rebase
 
-While `git merge` creates a new commit, as illustrated [here](#figure-merging), `git rebase` just changes the base of one branch to put it after the last commit of the other branch. Taking the same example illustrated [here](#figure-repository-on-computer-1-with-diverged-master-branches), we can do `git fetch origin` on `Computer 1` to update the local copy of `origin/master`, and then `git rebase origin/master` to obtain:  
+While `git merge` creates a new commit, as illustrated [here](#figure-merging), `git rebase` changes the base of one branch to put it after the last commit of the other branch. Taking the same example illustrated [here](#figure-repository-on-computer-1-with-diverged-master-branches), we can do `git fetch origin` on `Computer 1` to update the local copy of `origin/master`, and then `git rebase origin/master` to obtain:  
 
 {{< figure src="rebase.drawio.svg" title="Rebasing" lightbox="true" >}}
 
@@ -275,33 +276,35 @@ You can find here live terminal session via [asciinema](https://asciinema.org) v
 
 ### 2.2. Create History
 
-{{< asciinema key="2020_09_09_CTCW_git/FirstFile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciinema key="2020_09_09_CTCW_git/firstfile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.3. Navigating the history
 
 Remark how `HEAD` is said to be on master when on the third commit, but not the others.
 
-{{< asciinema key="2020_09_09_CTCW_git/Navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.3. Adding remote
 
 Note how `origin/master` appears now when using `git log`.
 
-{{< asciinema key="2020_09_09_CTCW_git/Remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.4. Working with remote
 
 Note that `origin/master` appears on the third commit, while `HEAD` and `master` are on the fourth commit after `git commit`.
 
-{{< asciinema key="2020_09_09_CTCW_git/Sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.5. Auto merging
 
-{{< asciinema key="2020_09_09_CTCW_git/AutoMerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+If you try to reproduce this example, `git` will open your editor to write a commit message (`nano` by default). But for auto merges like this, the commit message is already written and you can just close your editor. I removed this behavior of opening my editor in case of auto merge for the sake of the live example, but you should keep this behavior.
+
+{{< asciinema key="2020_09_09_CTCW_git/automerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.6. Merging
 
-{{< asciinema key="2020_09_09_CTCW_git/Merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_09_09_CTCW_git/merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ## 3. References
 
