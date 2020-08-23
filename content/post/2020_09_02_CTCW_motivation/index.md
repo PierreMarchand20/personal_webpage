@@ -64,8 +64,8 @@ My solution (that may seem obvious to you now, but remember, I was an undergradu
 
 Obviously, it seems more complicated than doing everything in one code/script, and you need to manage inputs and outputs for each code component. But, it has several **advantages**:
 
-- The fact that `Compute` takes `Input` as an argument makes you able to loop over the input parameters, and to generate more data with a simple script.
-- If you have several pipelines with similar `Compute` component, you can try to merge them to make one pipeline, that takes more input to recover the exact previous computations.
+- The fact that `Computation` takes `Input` as an argument makes you able to loop over the input parameters, and to generate more data with a simple script.
+- If you have several pipelines with similar `Computation` component, you can try to merge them to make one pipeline, that takes more input to recover the exact previous computations.
 - You can do as many analyses as you want on `Data`.
 - Using well-know formats, such as `csv`, `json` or others (depending on your data) for `Input`, `Data` and `Output` makes you able to use most of the languages/softwares I/O utilities, post-processing and plotting tools. For example, you can easily use the python modules `pandas` and `matplotlib`, $\LaTeX$ package `pgfplot`, etc.
 - You can save and store your results `Data` and `Output`.
