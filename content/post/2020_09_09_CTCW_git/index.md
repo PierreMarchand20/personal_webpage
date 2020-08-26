@@ -113,7 +113,7 @@ To navigate your history, you can use
 
 - relative references: to checkout the second generation ancestor of `HEAD` use `HEAD~2`.
 
-- absolute references: using the commit IT, `git checkout 291bb0` (first characters are enough)
+- absolute references: using the commit ID, `git checkout 291bb0` (first characters are enough)
 - to return to the last state of your repository, `git checkout master`.
 
 {{< figure src="HEAD_3.drawio.svg" title="`git checkout HEAD~2`" lightbox="true" >}}
