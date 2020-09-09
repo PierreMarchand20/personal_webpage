@@ -33,6 +33,8 @@ projects: ["computer tools"]
 
 Starting with git was an obvious choice, it is the backbone of many tools nowadays, and it will be well-integrated with all the tools we will see in the following CTCW posts. That is why, we will take the time to understand its benefits, and how to use it. The presentation will be organized around what git allows you to do: versioning, remote backup, synchronization and collaborative work.
 
+Each one of these usages will require the previous ones. For example, you need to know how to version your code to use a remote backup, but you do not need to kow a priori how to use git for collaborative work. So that, you can start by reading just what you need.
+
 Note that I present command lines to use git, but there exists a lot of graphical interfaces (see this [list](https://git-scm.com/downloads/guis)), but understanding how git works is still necessary to use them. You can also find a [presentation]({{< ref "/talk/2019_01_10_infomath/index.md" >}}) I did a few years ago on git with a similar approach.
 
 [Live examples](#2-examples) are available via [asciinema](https://asciinema.org) files. Note that there are not just videos, you can also copy/paste displayed command lines.
@@ -60,7 +62,7 @@ See [Example](#21-setup).
 
 #### Create repository
 
-To start locally a repository, go to the folder you want to work with, here `YourRepository`, and use `git init`.
+To start locally a repository, go to the folder you want to work with, here `YourRepository`, and use `git init` to initialize your git repository.
 
 This will create a hidden folder `.git` with all the information of the repository. You should not modify anything in `.git`.
 
@@ -69,6 +71,8 @@ See [Example](#21-setup).
 ### 1.2. Versioning
 
 The first benefit of using git is that it allows you to *version* your source code. It means that git will track your files, save their history efficiently, and give you the possibility to easily navigate through the different versions of your files. Using git, you can forget about versioning your files numbering their name like `file1.txt`, `file2.txt`, `filefinal.txt`, `filefinal1.txt`, ... and all the redundancy it implies.
+
+Note that you can do it **locally**, even if in practice most people also use a remote to back up their repository. This will be discussed afterward, and we will stay local for the moment.
 
 #### Create History
 
@@ -83,7 +87,9 @@ The first command makes the file `FirstFile.txt` *staged*, and the second one co
 
 Note that if you do not add the `-m` flag followed by a string, `git` will open your editor (default to `nano`) for you to write a commit message instead.
 
-By default, the first branch you create is called `master` [^1]. We will see that one repository can contain several branches, but this is an advanced subject. A branch represents a linear history of your repository, and in practice it is a pointer to the last state of a linear history.
+In the following figure, you can see an illustration of a simple history. Each rectangle represents a commit, so a snapshot in the history of your repository with all the associated information, in particular, a commit ID. The commit `291bb0` is the first one, followed by `e9b2d0` which has a pointer to the previous state. That is why there is an arrow from `e9b2d0` to `291bb0`. Then, `master` is the tip of the history, and represents a *branch*. A branch represents a linear history of your repository, and in practice it is a pointer to the last state of a linear history. Here, we only have one branch. Finally, `HEAD` is the actual state on your computer, if you open a file tracked by this repository, its state will be the one of the commit `HEAD` points to. In this example, `HEAD` points to `master`, so the last state of the history.
+
+By default, the first branch you create is called `master` [^1].
 
 [^1]: It is quite likely that `main` is going to be the new default name instead of `master`.
 
@@ -151,6 +157,8 @@ The remote is then referenced as `origin`. And, we need to push the local commit
 ```bash
 git push -u origin master
 ```
+
+We have now a remote branch `origin/master`, which is the copy on the remote `origin` of `master`.
 
 {{< figure src="remote.drawio.svg" title="Remote added" lightbox="true" >}}
 
@@ -272,13 +280,26 @@ You can find here live terminal session via [asciinema](https://asciinema.org) v
 
 ### 2.1. Setup
 
+We configure git for the first time:
+
+- set an identity
+- initialize repository
+
 {{< asciinema key="2020_09_09_CTCW_git/setup" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.2. Create History
 
+We create our first file and track it with git.
+
 {{< asciinema key="2020_09_09_CTCW_git/firstfile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.3. Navigating the history
+
+Taking a similar example as described [here](#figure-git-checkout-head2). We have three commits, starting from the last one, we navigate using
+
+- relative reference (`HEAD~2`)
+- branch name (`master`)
+- absolute reference (`f99f6199`)
 
 Remark how `HEAD` is said to be on master when on the third commit, but not the others.
 
@@ -292,17 +313,23 @@ Note how `origin/master` appears now when using `git log`.
 
 ### 2.4. Working with remote
 
+Similarly to this [example](#figure-local-new-commit), we create a new commit locally so that the local branch `master` is further than the remote branch `origin/master`.
+
 Note that `origin/master` appears on the third commit, while `HEAD` and `master` are on the fourth commit after `git commit`.
 
 {{< asciinema key="2020_09_09_CTCW_git/sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.5. Auto merging
 
+We reproduce exactly the example given [here](#figure-merging) with one repository shared by two computers, represented here by two different folders on the same computer. The repository is one commit further on `Computer 2` and on `Computer 1`, compared to the remote. But the two changes do not overlap.
+
 If you try to reproduce this example, `git` will open your editor to write a commit message (`nano` by default). But for auto merges like this, the commit message is already written and you can just close your editor. I removed this behavior of opening my editor in case of auto merge for the sake of the live example, but you should keep this behavior.
 
 {{< asciinema key="2020_09_09_CTCW_git/automerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.6. Merging
+
+We reproduce exactly the example given [here](#figure-merging) with one repository shared by two computers, represented here by two different folders on the same computer. The repository is one commit further on `Computer 2` and on `Computer 1`, compared to the remote. But the two changes overlap.
 
 {{< asciinema key="2020_09_09_CTCW_git/merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
