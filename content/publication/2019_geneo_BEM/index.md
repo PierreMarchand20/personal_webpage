@@ -22,7 +22,7 @@ authors = ["admin","Xavier Claeys","Pierre Jolivet","Frédéric Nataf","Pierre-H
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "(Submitted to Numerische Mathematik)"
+publication = "(Accepted to Numerische Mathematik)"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -52,7 +52,7 @@ slides = ""
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["GenEO Coarse space","boundary integral equation","hypersingular operator",]
+tags = ["Domain decomposition","GenEO Coarse space","Boundary integral formulation","hypersingular operator","preconditioner"]
 
 # Links (optional).
 url_pdf = ""
