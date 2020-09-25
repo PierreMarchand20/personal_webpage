@@ -71,7 +71,7 @@ url_source = ""
 links = [{name = "HAL", url = "https://hal.inria.fr/hal-02188771v1"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1007/s00211-020-01149-5"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
