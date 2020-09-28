@@ -48,6 +48,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '#contact'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/PMarchand20
   - icon: github
     icon_pack: fab
     link: //github.com/PierreMarchand20
