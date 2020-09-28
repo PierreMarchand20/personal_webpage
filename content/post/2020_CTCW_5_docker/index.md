@@ -28,13 +28,7 @@ image:
 projects: ["computer tools"]
 ---
 
-This was obvious. If you had to use one tool, it would be probably git.
+## References
 
-## General presentation
-
-git is a distributed version-control system
-git is very well-known tool and it is now the backbone of many others built around it.
-
-## t
-
-- <i class="fas fa-user-alt fa-2x" style="color:#4C4B4C"></i> with <i class="fas fa-laptop fa-2x" style="color:#4C4B4C"></i> with <i class="fas fa-at fa-2x" style="color:#4C4B4C"></i>: **versioning** and **backup**,
+- [Good practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) for writing dockerfiles
+- [Cache and multi stage build](https://pythonspeed.com/articles/faster-multi-stage-builds/)

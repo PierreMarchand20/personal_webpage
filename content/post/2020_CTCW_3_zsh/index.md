@@ -30,7 +30,7 @@ projects: ["computer tools"]
 
 One crucial tool a developer needs is a *terminal*. It is a tool to interact differently with your computer, i.e., using a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface#Anatomy_of_a_shell_CLI) instead of a [graphical user infercace](https://en.wikipedia.org/wiki/Graphical_user_interface). In other words, it allows you to give text commands to the operating system, instead of manipulating graphical elements (windows, icons,...). While the latter is easier to begin with, the former has the advantages to allow scripting and automation of your tasks, to use less ressources, and it only uses the keyboard which can make you more efficient.
 
-In particular, I use it to run code, to connect on remote computers, and to use git that I presented in my [previous post]({{< ref "/post/2020_09_09_CTCW_git/index.md" >}}).
+In particular, I use it to run code, to connect on remote computers, and to use git that I presented in my [previous post]({{< ref "/post/2020_CTCW_2_git/index.md" >}}).
 
 There is a steep learning curve to use a terminal so today, we will see how to improve your terminal experience with the Z shell, also called zsh. It is an alternative to bash, and it is going to be the [default shell on macOS](https://support.apple.com/en-us/HT208050) starting from Catalina 10.5.
 
@@ -58,25 +58,29 @@ Here are some features of zsh that I like and often use (see next [section](#3-p
 
 - **Completion** (builtin and improved with [zsh-completions](https://github.com/zsh-users/zsh-completions)): just use `tab` to complete your command line
   - **recursive path completion**: no need to write the full directory/file names
-{{< asciinema key="2020_09_16_CTCW_zsh/path_expansion" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
-  - **command arguments completion**: `zsh` suggests arguments to the command you wrote with a description of each option (for example, `git` we saw on the [previous post]({{< ref "/post/2020_09_09_CTCW_git/index.md" >}})) {{< asciinema key="2020_09_16_CTCW_zsh/argument_command_completion" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
-  - **command arguments flags**: same as the previous feature, but for flags {{< asciinema key="2020_09_16_CTCW_zsh/flag_command_completion" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
-  - **variable expansion**: {{< asciinema key="2020_09_16_CTCW_zsh/variable_expansion" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
-- **Better history navigation**: you can search for a command in your history with any substring of this command using up and down arrows (with [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)) {{< asciinema key="2020_09_16_CTCW_zsh/history_substring_search" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciinema key="2020_CTCW_3_zsh/path_expansion" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
+  - **command arguments completion**: `zsh` suggests arguments to the command you wrote with a description of each option (for example, `git` we saw on the [previous post]({{< ref "/post/2020_CTCW_2_git/index.md" >}})) {{< asciinema key="2020_CTCW_3_zsh/argument_command_completion" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
+  - **command arguments flags**: same as the previous feature, but for flags {{< asciinema key="2020_CTCW_3_zsh/flag_command_completion" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
+  - **variable expansion**: {{< asciinema key="2020_CTCW_3_zsh/variable_expansion" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
+- **Better history navigation**: you can search for a command in your history with any substring of this command using up and down arrows (with [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)) {{< asciinema key="2020_CTCW_3_zsh/history_substring_search" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
 - **Autosuggestion**: the last command starting by what you write is suggested and you can use `tab` to autocomplete it (with [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions))
-{{< asciinema key="2020_09_16_CTCW_zsh/autosuggestion" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
-- **Syntax highlighting**: a few examples (with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)) {{< asciinema key="2020_09_16_CTCW_zsh/syntax_highlighting" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
-- **Plugin and theme support**: zsh is known for its [plugin managers](#3-plugin-managers) that allows installing/activating the previously cited plugins and many others, but it is also known for its highly customizable [prompt](#4-prompts). We are going to see how to benefit from them.
+{{< asciinema key="2020_CTCW_3_zsh/autosuggestion" rows="15" preload="1" theme="solarized-dark" title="Setup git">}}
+- **Syntax highlighting**: a few examples (with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)) {{< asciinema key="2020_CTCW_3_zsh/syntax_highlighting" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
+- **Plugin and theme support**: zsh is known for its [plugin managers](#3-plugin-managers) that allows installing/activating the previously cited plugins and many others, but it is also known for its highly customizable [prompt](#4-prompts). We are going to see how to benefit from them in the following.
 
 ## 3. Plugin managers
 
-As we have seen, some features are available via plugins. You could install them by hand, each repository explains how to do it. Usually you have to download them, source them in your `.zshrc` and set some variables. But it can be tricky because the order with which you source them matters, and having a lot of plugins can add a delay when starting a new shell session.
+As we have seen, some features are available via plugins. You could install them by hand, each repository explains how to do it. Usually you have to download them, source them in your `.zshrc` and set some variables. But it can be tricky because the order in which you source them matters, and having a lot of plugins can add a delay when starting a new shell session.
 
-Another possibility is to use a *plugin manager*. There are a lot of them (see [reference](#53-plugin-managers)), I personally use [Zim](https://github.com/zimfw/zimfw) that I find fast and easy to use. Besides, it is well-maintained and the maintainers were quite helpful when I had a question. I tried to use a few other plugin managers, most of them are great, but some added a delay when starting a new shell session, and that is how I tried `Zim`, which is marketed as [fast](https://github.com/zimfw/zimfw/wiki/Speed). I was convinced by the fact they [thought](https://github.com/zimfw/zimfw/issues/88) about how their project should grow.
+Another possibility is to use a *plugin manager*. There are a lot of them (see [reference](#53-plugin-managers)), I personally use [Zim](https://github.com/zimfw/zimfw) that I find fast and easy to use. Besides, it is well-maintained and the maintainers were quite helpful when I had a question. I tried to use a few other plugin managers, most of them are great, but some added a delay when starting a new shell session, and that is how I tried `Zim`, which is marketed as [fast](https://github.com/zimfw/zimfw/wiki/Speed). I was also convinced by the fact they [thought](https://github.com/zimfw/zimfw/issues/88) about how their project should grow.
 
 The [installation](https://github.com/zimfw/zimfw#installation) process is quite simple and default configuration should give you most of the features described previously.
 
 ## 4. Prompts
+
+The benefit in customizing your prompt is that it allows you to display more information. `git`, that we introduced in our last [post]({{< ref "/post/2020_CTCW_2_git/index.md" >}}), is the usual first example. You can display the current branch, and if there are modifications to be committed. But you can also display timing between commands, battery level
+
+Similarly to plugins, you could define a customized prompt by hand. There are some tutorials that explain how to do it.
 
 ## 5. References
 

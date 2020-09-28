@@ -285,13 +285,13 @@ We configure git for the first time:
 - set an identity
 - initialize repository
 
-{{< asciinema key="2020_09_09_CTCW_git/setup" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciinema key="2020_CTCW_2_git/setup" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.2. Create History
 
 We create our first file and track it with git.
 
-{{< asciinema key="2020_09_09_CTCW_git/firstfile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciinema key="2020_CTCW_2_git/firstfile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.3. Navigating the history
 
@@ -303,13 +303,13 @@ Taking a similar example as described [here](#figure-git-checkout-head2). We hav
 
 Remark how `HEAD` is said to be on master when on the third commit, but not the others.
 
-{{< asciinema key="2020_09_09_CTCW_git/navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_CTCW_2_git/navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.3. Adding remote
 
 Note how `origin/master` appears now when using `git log`.
 
-{{< asciinema key="2020_09_09_CTCW_git/remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_CTCW_2_git/remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.4. Working with remote
 
@@ -317,7 +317,7 @@ Similarly to this [example](#figure-local-new-commit), we create a new commit lo
 
 Note that `origin/master` appears on the third commit, while `HEAD` and `master` are on the fourth commit after `git commit`.
 
-{{< asciinema key="2020_09_09_CTCW_git/sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_CTCW_2_git/sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.5. Auto merging
 
@@ -325,13 +325,13 @@ We reproduce exactly the example given [here](#figure-merging) with one reposito
 
 If you try to reproduce this example, `git` will open your editor to write a commit message (`nano` by default). But for auto merges like this, the commit message is already written and you can just close your editor. I removed this behavior of opening my editor in case of auto merge for the sake of the live example, but you should keep this behavior.
 
-{{< asciinema key="2020_09_09_CTCW_git/automerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_CTCW_2_git/automerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.6. Merging
 
 We reproduce exactly the example given [here](#figure-merging) with one repository shared by two computers, represented here by two different folders on the same computer. The repository is one commit further on `Computer 2` and on `Computer 1`, compared to the remote. But the two changes overlap.
 
-{{< asciinema key="2020_09_09_CTCW_git/merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciinema key="2020_CTCW_2_git/merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ## 3. References
 
