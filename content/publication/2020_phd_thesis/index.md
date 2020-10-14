@@ -26,7 +26,7 @@ publication = "PhD thesis, *Sorbonne Université*, 2020"
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "In the present contribution, we consider symmetric positive definite operators stemming from boundary integral equation (BIE), and we study a two-level preconditioner where the coarse space is built using local generalized eigenproblems in the overlap. We will refer to this coarse space as the GenEO coarse space."
+abstract = "This is my PhD thesis that I defended in January 2020. Main topics are local multitrace formulation, GenEO preconditioners for the boundary element method, and implementation of hierarchical matrices."
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -82,3 +82,10 @@ doi = ""
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+
+Members of the jury were 
+
+- [Xavier Antoine](http://www.iecl.univ-lorraine.fr/~Xavier.Antoine/Xavier_ANTOINE_Website/Home.html) and [Timo Betcke](https://sites.google.com/site/timobetcke/) as referees
+- [Stéphanie Chaillat-Loseille](https://perso.ensta-paris.fr/~chaillat/index.php?page=home) as examiner
+- [Frédéric Hecht](https://www.ljll.math.upmc.fr/hecht/) as examiner and committee president
+- [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) as supervisors
