@@ -50,7 +50,10 @@ There is a steep learning curve to use a terminal so today, we will see how to i
 
 ## 2. Z Shell
 
-We are interested in zsh, which is a shell derived from the Bourne shell `sh`, like `bash`. It is the reason why they both share a lot of features. If you already know how to use `bash` (`cd`, `mv`, `touch`, `mkdir`, ...), don't worry, you won't start from scratch again.
+We are interested in zsh, which is a shell derived from the Bourne shell `sh`, like `bash`. It is the reason why they both share a lot of features. If you already know how to use `bash` (`cd`, `mv`, `touch`, `mkdir`, ...), don't worry, you won't start from scratch again. Note that to make it your default shell, you can use:
+```
+chsh -s $(which zsh)
+```
 
 Personally, I mainly use a shell interactively, meaning that I do not write so many shell scripts, so I will mainly focus on this usage. Note that you can use any shell interactively and any other shell in scripts using a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) (`#!/usr/bin/env bash` for bash) at the beginning of your shell scripts.
 
@@ -78,9 +81,15 @@ The [installation](https://github.com/zimfw/zimfw#installation) process is quite
 
 ## 4. Prompts
 
-The benefit in customizing your prompt is that it allows you to display more information. `git`, that we introduced in our last [post]({{< ref "/post/2020_CTCW_2_git/index.md" >}}), is the usual first example. You can display the current branch, and if there are modifications to be committed. But you can also display timing between commands, battery level
+The benefit in customizing your prompt is that it allows you to display more information. `git`, that we introduced in our last [post]({{< ref "/post/2020_CTCW_2_git/index.md" >}}), is the usual first example. You can display the current branch, and if there are modifications to be committed. But you can also display timing between commands, battery level, and a lot of other information. I personally like to keep it simple, but you do you :wink:
 
-Similarly to plugins, you could define a customized prompt by hand. There are some tutorials that explain how to do it.
+Similarly to plugins, you could define a customized prompt by hand. But the risk is to add a delay each time you enter a command because of the loading time of the prompt.
+
+Similar problem, similar solution: people have already defined optimized prompts that allow for customization while avoiding delay most of the time. Two popular prompts are [Spaceship ZSH](https://github.com/denysdovhan/spaceship-prompt) and [Powerlevel10k](https://github.com/romkatv/powerlevel10k). I personally use the latter at the moment, but they are both fast, customizable and easy to use.
+
+
+Here is an example with Powerlevel10k where I show current folder, current git status (notice the `?1`, which means there is one file not tracked), python virtual environment, time, and a custom prompt that shows :star: with `my display`.
+{{< asciinema key="2020_CTCW_3_zsh/prompt" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ## 5. References
 
@@ -102,5 +111,8 @@ Similarly to plugins, you could define a customized prompt by hand. There are so
 
 - Some plugin managers: [zim](https://github.com/zimfw/zimfw), [oh my zsh](https://ohmyz.sh), [antigen](https://github.com/zsh-users/antigen), [zplug](https://github.com/zplug/zplug), [zinit](https://github.com/zdharma/zinit),...
 - Benchmarks for plugin managers: [zim benchmarks](https://github.com/zimfw/zimfw/wiki/Speed), a reddit [thread](https://www.reddit.com/r/zsh/comments/ak0vgi/a_comparison_of_all_the_zsh_plugin_mangers_i_used/).
-- Customizable and efficient prompts: [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
 - a reddit [thread](https://www.reddit.com/r/zsh/comments/bj6rwz/what_is_a_good_ohmyzsh_alternative/) on plugin managers.
+
+### 5.4. Prompts
+
+- Customizable and efficient prompts: [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [Spaceship](https://github.com/denysdovhan/spaceship-prompt)

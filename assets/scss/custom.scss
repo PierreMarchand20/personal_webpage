@@ -2,6 +2,12 @@
  *  Page content
  **************************************************/
  
+ @font-face {
+  font-family: "Terminal Glyphs";
+  src: url("fonts/glyphs.ttf") format("truetype");
+}
+
+
  .article-style {
 	text-align: justify;
 	text-justify: auto;
@@ -151,7 +157,7 @@
 	border-style: solid;
 	cursor: text;
 	border-width: 0.5em;
-	font-family: Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols';
+	font-family: 'Terminal Glyphs',Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols';
 	line-height: 1.3333333333em;
   }
   .asciinema-terminal .line {
