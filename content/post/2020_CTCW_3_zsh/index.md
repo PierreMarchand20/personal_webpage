@@ -77,7 +77,7 @@ As we have seen, some features are available via plugins. You could install them
 
 Another possibility is to use a *plugin manager*. There are a lot of them (see [reference](#53-plugin-managers)), I personally use [Zim](https://github.com/zimfw/zimfw) that I find fast and easy to use. Besides, it is well-maintained and the maintainers were quite helpful when I had a question. I tried to use a few other plugin managers, most of them are great, but some added a delay when starting a new shell session, and that is how I tried `Zim`, which is marketed as [fast](https://github.com/zimfw/zimfw/wiki/Speed). I was also convinced by the fact they [thought](https://github.com/zimfw/zimfw/issues/88) about how their project should grow.
 
-The [installation](https://github.com/zimfw/zimfw#installation) process is quite simple and default configuration should give you most of the features described previously.
+The [installation](https://github.com/zimfw/zimfw#installation) process is quite simple and default configuration should give you most of the features described previously. To add or remove modules, you need to add a line with `zmodule ` in `.zimrc` and run `zimfw install`. See documentation [here](https://github.com/zimfw/zimfw#zmodule).
 
 ## 4. Prompts
 
@@ -85,8 +85,7 @@ The benefit in customizing your prompt is that it allows you to display more inf
 
 Similarly to plugins, you could define a customized prompt by hand. But the risk is to add a delay each time you enter a command because of the loading time of the prompt.
 
-Similar problem, similar solution: people have already defined optimized prompts that allow for customization while avoiding delay most of the time. Two popular prompts are [Spaceship ZSH](https://github.com/denysdovhan/spaceship-prompt) and [Powerlevel10k](https://github.com/romkatv/powerlevel10k). I personally use the latter at the moment, but they are both fast, customizable and easy to use.
-
+Similar problem, similar solution: people have already defined optimized prompts that allow for customization while avoiding delay most of the time. Two popular prompts are [Spaceship ZSH](https://github.com/denysdovhan/spaceship-prompt) and [Powerlevel10k](https://github.com/romkatv/powerlevel10k). I personally use the latter at the moment, but they are both fast, customizable and easy to use. The [installation](https://github.com/romkatv/powerlevel10k#get-started) process is quite straightforward, and the configuration is done interactively.
 
 Here is an example with Powerlevel10k where I show current folder, current git status (notice the `?1`, which means there is one file not tracked), python virtual environment, time, and a custom prompt that shows :star: with `my display`.
 {{< asciinema key="2020_CTCW_3_zsh/prompt" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
