@@ -1,9 +1,9 @@
 ---
 title: 'Applying GMRES to Helmholtz boundary integral equations: how does the number of iterations depend on the frequency in the presence of strong trapping?'
-event: 18. Soellerhaus Workshop
-event_url: 'https://www.applied.math.tugraz.at/tagungen/'
+event: Séminaire de mathématiques appliquées du Laboratoire de mathématiques Jean Leray
+event_url: https://www.math.sciences.univ-nantes.fr/fr/seminaires/mathematiques-appliquees
 
-location: 'Soellerhaus, Hirschegg, Austria'
+location: 'Laboratoire de mathématiques Jean Leray (online), France'
 
 abstract: >-
   We are interested in solving scattering problems with strong trapping using the Combined Field Integral Equation (CFIE) and the Generalized Minimal Residual method (GMRes). In this talk, we show a new understanding of how the number of GMRes iterations depends on frequency in this situation.
@@ -20,7 +20,7 @@ abstract: >-
 
 summary: 'A new approach to study GMRes applied to Helmholtz boundary integral equation in presence of strong trapping.'
 
-date: '2020-10-09T00:00:00'
+date: '2020-12-15T00:00:00'
 date_end: ''
 all_day: true
 publishDate: '2019-02-05T00:00:00'
@@ -29,7 +29,7 @@ publishDate: '2019-02-05T00:00:00'
 authors: []
 tags: []
 categories: 
-  - conference
+  - other
 
 featured: false
 projects: []

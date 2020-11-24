@@ -22,7 +22,7 @@ authors = ["admin","Xavier Claeys","Pierre Jolivet","Frédéric Nataf","Pierre-H
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "(Accepted to Numerische Mathematik)"
+publication = "_Numerische Mathematik_, Sep 2020, Vol. 146, Issue 3, Pages 597-628"
 publication_short = ""
 
 # Abstract and optional shortened version.
