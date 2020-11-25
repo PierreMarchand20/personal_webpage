@@ -36,7 +36,7 @@ projects: []
 slides: ''
 
 url_pdf: ''
-url_slides: ''
+url_slides: 'https://jcjc_ondes.pages.math.cnrs.fr/talk/2020_11_24/pm_1/P-Marchand.pdf'
 url_video: ''
 url_code: ''
 image:
