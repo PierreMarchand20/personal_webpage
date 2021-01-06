@@ -1,12 +1,12 @@
 +++
-title = "Two-level preconditioning for h-version boundary element approximation of hypersingular operator with GenEO"
-date = 2020-12-26T17:07:23+01:00
+title = "Eigenvalues of the truncated Helmholtz solution operator under strong trapping"
+date = 2021-01-06T17:07:23+01:00
 
 # Schedule page publish date (NOT publication's date).
-publishDate= "2017-01-01T00:00:00Z"
+publishDate= "2021-01-06T12:07:23+01:00"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["admin","Xavier Claeys","Pierre Jolivet","Frédéric Nataf","Pierre-Henri Tournier"]
+authors = ["Jeffrey Galkowski","admin","Euan A. Spence"]
 
 # Publication type.
 # Legend:
@@ -19,20 +19,20 @@ authors = ["admin","Xavier Claeys","Pierre Jolivet","Frédéric Nataf","Pierre-H
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["2"]
+publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "_Numerische Mathematik_, Sep 2020, Vol. 146, Issue 3, Pages 597-628"
+publication = "Preprint"
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "In the present contribution, we consider symmetric positive definite operators stemming from boundary integral equation (BIE), and we study a two-level preconditioner where the coarse space is built using local generalized eigenproblems in the overlap. We will refer to this coarse space as the GenEO coarse space."
+abstract = ""
 
 # Summary. An optional shortened abstract.
 summary = ""
 
 # Is this a Featured publication? (true/false)
-featured = false
+featured = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -52,11 +52,10 @@ slides = ""
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Domain decomposition","GenEO Coarse space","Boundary integral formulation","hypersingular operator","preconditioner"]
+tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://hal.archives-ouvertes.fr/hal-02188771/document"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -68,10 +67,10 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
-links = [{name = "HAL", url = "https://hal.inria.fr/hal-02188771v1"}]
+# links = [{name = "HAL", url = "https://tel.archives-ouvertes.fr/tel-02922455/"}]
 
 # Digital Object Identifier (DOI)
-doi = "10.1007/s00211-020-01149-5"
+doi = ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
