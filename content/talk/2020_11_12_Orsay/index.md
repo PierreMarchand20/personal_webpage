@@ -1,26 +1,18 @@
 ---
-title: 'Applying GMRES to Helmholtz boundary integral equations: how does the number of iterations depend on the frequency in the presence of strong trapping?'
-event: Séminaire de mathématiques appliquées du Laboratoire de mathématiques Jean Leray
-event_url: https://www.math.sciences.univ-nantes.fr/fr/seminaires/mathematiques-appliquees
+title: 'Une analyse de convergence pour GMRES appliquée aux équations intégrales de frontière pour l’équation d’Helmholtz en présence de cavités elliptiques'
+event: Séminaire d’Analyse Numérique et EDP du Laboratoire de mathématiques de Orsay
+event_url: https://www.imo.universite-paris-saclay.fr/-Analyse-Numerique-et-E-D-P-
 
-location: 'Laboratoire de mathématiques Jean Leray (online), France'
+location: 'Laboratoire de mathématiques de Orsay (online), France'
 
-abstract: >-
-  We are interested in solving scattering problems with strong trapping using the Combined Field Integral Equation (CFIE) and the Generalized Minimal Residual method (GMRes). In this talk, we show a new understanding of how the number of GMRes iterations depends on frequency in this situation.
-
-  The non-normal nature of CFIE makes GMRes the iterative method of choice for solving linear systems stemming from its discretisation. GMRes has the advantage of being able to solve any non-singular linear system, in particular non-normal. But the convergence analysis becomes less straightforward in this case, because it requires more information than just the spectrum. Bounds for GMRes applied to non-normal matrices can be derived using condition number of eigenvalues, numerical range or pseudo-spectrum[^1][^2]
-
-  But in the case of trapping, an additional difficulty comes from the solution operator whose norm grows exponentially through a sequence of frequencies tending to infinity, with the density of these ``bad'' frequencies increasing as the frequency increases. In this case, the spectrum of the associated matrix has the form of a cluster with outliers near the origin. Following[^3] where matrices with similar spectra are studied, we provide a new analysis of the GMRes convergence taking into account this particular distribution. 
-
-  [^1]: S. L. Campbell and I. C. F. Ipsen and C. T. Kelley and C. D. Meyer, GMRES and the minimal polynomial. *Oxford University Computing Laboratory*, 1999.
-
-  [^2]: Mark Embree, How descriptive are GMRES convergence bounds? *BIT Numerical Mathematics*, 1996.
-
-  [^3]: Jörg Liesen and Petr Tichý, Convergence analysis of Krylov subspace methods. *GAMM-Mitteilungen*, 2004.
+abstract: "Dans cet exposé, nous nous intéresserons à la résolution de problèmes de diffraction par for- mulation intégrale avec la présence de cavités elliptiques. Plus précisément, nous utiliserons une formulation intégrale classique, dite “équation combinée des champs” (Combined Field Integral Equation, ou CFIE) discrétisée par éléments de frontière et GMRes (Generalized Minimal Resid- ual method) comme méthode de résolution itérative. L’objectif est de présenter une analyse de convergence de GMRes qui met en évidence la dépendance du nombre d’itérations en fonction de la fréquence lorsque la géométrie du problème contient une cavité elliptique.
+Le choix de GMRes est naturel du fait de la nature non-normale de l’opérateur CFIE. En effet, GMRes a l’avantage de pouvoir résoudre tout problème non-singulier, et en particulier non-normal. Mais l’analyse de convergence est dans ce cas moins évidente, puisque le spectre de l’opérateur n’est plus suffisant. Des bornes sur la vitesse de convergence de GMRes ont notamment été proposées en utilisant le conditionnement des valeurs propres, l’image numérique de l’opérateur, ou encore le pseudospectrum.
+Mais dans le cas où la géométrie contient une cavité elliptique, une difficulté supplémentaire vient de l’opérateur solution dont la norme croît exponentiellement à travers une séquence de fréquences tendant vers l’infini, la densité de ces fréquences de résonance augmentant avec la fréquence. Dans ce cas, le spectre de la matrice associée a la forme d’un cluster avec des outliers près de l’origine. Nous proposons alors une nouvelle analyse de la convergence de GMRes en tenant compte de cette distribution particulière du spectre.
+Travail en collaboration avec A. Spence et E. A. Spence."
 
 summary: 'A new approach to study GMRes applied to Helmholtz boundary integral equation in presence of strong trapping.'
 
-date: '2020-12-15T00:00:00'
+date: '2020-11-12T00:00:00'
 date_end: ''
 all_day: true
 publishDate: '2019-02-05T00:00:00'

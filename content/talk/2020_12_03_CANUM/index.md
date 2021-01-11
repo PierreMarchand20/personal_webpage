@@ -24,7 +24,7 @@ tags: []
 categories: 
   - conference
 
-featured: true
+featured: false
 projects: []
 slides: ''
 
