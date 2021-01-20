@@ -56,7 +56,7 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://www.dropbox.com/s/qkgw2zsuy241oyo/main.pdf?dl=0"
+url_preprint = "https://www.dropbox.com/s/5ybzmzgwdzvmxia/main.pdf?dl=0"
 url_code = ""
 url_dataset = ""
 url_project = ""
