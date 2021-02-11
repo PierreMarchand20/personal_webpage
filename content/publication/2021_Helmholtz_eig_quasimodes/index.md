@@ -26,7 +26,7 @@ publication = "arXiv, 2101.02116"
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = ""
+abstract = "For the Helmholtz equation posed in the exterior of a Dirichlet obstacle, we prove that if there exists a family of quasimodes (as is the case when the exterior of the obstacle has stable trapped rays), then there exist near-zero eigenvalues of the standard variational formulation of the exterior Dirichlet problem (recall that this formulation involves truncating the exterior domain and applying the exterior Dirichlet-to-Neumann map on the truncation boundary). The significance of this result is a) the finite-element method for computing approximations to solutions of the Helmholtz equation is based on the standard variational formulation, and b) the location of eigenvalues, and especially near-zero ones, plays a key role in understanding how iterative solvers such as the generalised minimum residual method (GMRES) behave when used to solve linear systems, in particular those arising from the finite-element method. The result proved in this paper is thus the first step towards rigorously understanding how GMRES behaves when applied to discretisations of high-frequency Helmholtz problems under strong trapping (the subject of the companion paper [Marchand, Galkowski, Spence, Spence, 2021])."
 
 # Summary. An optional shortened abstract.
 summary = ""

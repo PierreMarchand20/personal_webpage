@@ -22,11 +22,11 @@ authors = ["admin","Jeffrey Galkowski","Alastair Spence","Euan A. Spence"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "Preprint"
+publication = "arXiv, 2102.05367"
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = ""
+abstract = "We consider GMRES applied to discretisations of the high-frequency Helmholtz equation with strong trapping; recall that in this situation the problem is exponentially ill-conditioned through an increasing sequence of frequencies. Under certain assumptions about the distribution of the eigenvalues, we prove upper bounds on how the number of GMRES iterations grows with the frequency. Our main focus is on boundary-integral-equation formulations of the exterior Dirichlet and Neumann obstacle problems in 2- and 3-d; for these problems, we investigate numerically the sharpness (in terms of dependence on frequency) of both our bounds and various quantities entering our bounds. This paper is therefore the first comprehensive study of the frequency-dependence of the number of GMRES iterations for Helmholtz boundary-integral equations under trapping."
 
 # Summary. An optional shortened abstract.
 summary = ""
@@ -56,7 +56,7 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://www.dropbox.com/s/5ybzmzgwdzvmxia/main.pdf?dl=0"
+url_preprint = "https://arxiv.org/pdf/2102.05367.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -69,6 +69,7 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
 # links = [{name = "HAL", url = "https://tel.archives-ouvertes.fr/tel-02922455/"}]
+links = [{name = "arXiv", url = "https://arxiv.org/abs/2102.05367"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
