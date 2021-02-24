@@ -1,7 +1,7 @@
 ---
 title: "Une analyse de convergence pour GMRES appliquée aux équations intégrales de frontière pour l'équation d'Helmholtz en présence de cavités elliptiques"
 event: "Congrès d'Analyse Numérique pour les Jeunes - 2020"
-event_url: 'https://indico.math.cnrs.fr/'
+event_url: 'https://indico.math.cnrs.fr/event/6098/'
 
 location: "Congrès d'Analyse Numérique pour les Jeunes - 2020, Online"
 
