@@ -25,7 +25,7 @@ projects: []
 slides: ''
 
 url_pdf: ''
-url_slides: ''
+url_slides: 'http://www.cmap.polytechnique.fr/~defi/slides_GdT/2021-04-14_Pierre_Marchand_slides.pdf'
 url_video: ''
 url_code: ''
 image:
