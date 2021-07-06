@@ -15,13 +15,13 @@ all_day: true
 publishDate: '2019-02-05T00:00:00'
 
 
-authors: []
-tags: []
+authors: [Pierre Jolivet, admin]
+tags: ["PETSc","htool", "hierarchical matrix","distributed parallelism"]
 categories: 
-  - other
+  - seminar
 
 featured: false
-projects: []
+projects: ["htool"]
 slides: ''
 
 url_pdf: ''

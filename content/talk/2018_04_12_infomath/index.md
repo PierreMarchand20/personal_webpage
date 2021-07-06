@@ -18,12 +18,12 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: "2018-10-24T00:00:00"
 
-authors: []
+authors: [admin]
 tags:
   - git
 
 categories: 
-  - other
+  - seminar
 
 # Is this a featured talk? (true/false)
 featured: false

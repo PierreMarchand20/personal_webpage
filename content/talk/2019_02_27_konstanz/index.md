@@ -29,15 +29,20 @@ all_day: true
 publishDate: '2019-02-05T00:00:00'
 
 
-authors: []
+authors: [Xavier Claeys, admin, Frédéric Nataf]
 
 
 featured: false
 projects: []
 slides: ''
-tags: []
+tags:
+  - BEM
+  - DDM
+  - Boundary integral method
+  - domain decomposition method
+
 categories: 
-  - other
+  - seminar
 url_pdf: ''
 url_slides: ''
 url_video: ''

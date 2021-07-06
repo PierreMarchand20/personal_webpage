@@ -19,8 +19,17 @@ all_day: true
 publishDate: '2020-12-03T00:00:00'
 
 
-authors: []
-tags: []
+authors: [admin, Alastair Spence, Euan Spence]
+tags:
+  - GMRES
+  - CFIE
+  - Combined-Field operator
+  - BEM
+  - Boundary integral method
+  - Boundary Integral Equation
+  - Strong trapping
+
+
 categories: 
   - conference
 

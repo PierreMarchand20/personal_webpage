@@ -37,7 +37,7 @@ all_day: true
 
 publishDate: "2018-09-20T16:21:46.000Z"
 
-authors: []
+authors: [Xavier Claeys, admin, Frédéric Nataf]
 
 tags:
   - BEM

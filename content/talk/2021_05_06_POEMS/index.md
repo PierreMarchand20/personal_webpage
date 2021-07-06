@@ -15,10 +15,19 @@ all_day: true
 publishDate: '2019-02-05T00:00:00'
 
 
-authors: []
-tags: []
+authors: [Jeffrey Galkowski, admin, Alastair Spence, Euan Spence]
+tags:
+  - GMRES
+  - CFIE
+  - Combined-Field operator
+  - BEM
+  - Boundary integral method
+  - Boundary Integral Equation
+  - Strong trapping
+
+
 categories: 
-  - other
+  - seminar
 
 featured: false
 projects: []

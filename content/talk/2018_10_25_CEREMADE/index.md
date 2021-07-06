@@ -30,7 +30,7 @@ all_day: true
 publishDate: "2018-10-24T13:16:58.000Z"
 
 
-authors: []
+authors: [Xavier Claeys, admin, Frédéric Nataf]
 tags:
   - BEM
   - DDM
@@ -38,7 +38,7 @@ tags:
   - domain decomposition method
 
 categories: 
-  - other
+  - seminar
 
 
 featured: false

@@ -40,7 +40,7 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: "2018-09-20T16:17:32.000Z"
 
-authors: []
+authors: [Xavier Claeys, admin, Frédéric Nataf]
 tags:
   - BEM
   - DDM

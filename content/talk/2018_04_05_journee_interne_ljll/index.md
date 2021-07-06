@@ -17,14 +17,14 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: 2018-09-20T16:15:03.000Z
 
-authors: []
+authors: [Xavier Claeys, admin, Frédéric Nataf]
 tags:
   - Boundary integral method
   - BEM
   - GenEO
 
 categories: 
-  - other
+  - seminar
 
 # Is this a featured talk? (true/false)
 featured: false

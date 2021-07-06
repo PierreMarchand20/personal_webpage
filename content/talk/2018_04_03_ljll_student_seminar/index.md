@@ -18,11 +18,11 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: "2018-09-20T16:12:40.000Z"
 
-authors: []
+authors: [admin]
 tags: [DDM, domain decomposition methods]
 
 categories: 
-  - other
+  - seminar
 
 
 # Is this a featured talk? (true/false)

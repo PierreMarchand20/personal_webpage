@@ -7,7 +7,7 @@ authors = ["admin","Pierre-Henri Tournier"]
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["htool","hierarchical matrix","distributed parallelism"]
 
 # Project summary to display on homepage.
 summary = "Library for parallel hierarchical matrices"

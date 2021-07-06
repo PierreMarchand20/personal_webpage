@@ -17,12 +17,12 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: "2019-01-10T16:00:00"
 
-authors: []
+authors: [admin]
 tags:
   - git
 
 categories: 
-  - other
+  - seminar
 
 
 featured: true

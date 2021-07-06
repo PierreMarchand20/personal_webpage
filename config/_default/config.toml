@@ -97,7 +97,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
   [[related.indices]]
     name = "categories"
-    weight = 70.0
+    weight = 0.0
 
   [[related.indices]]
     name = "authors"
