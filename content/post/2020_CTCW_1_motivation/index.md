@@ -35,8 +35,9 @@ In the following weeks, I will present several tools to improve your development
 ## 1. Disclaimers
 
 - I should say that *I am not an expert*. I have studied very little computer science and informatics in my undergraduate studies. Most of what I know now comes from self-learning, and practice. If you disagree, or if you think there is a better way than what I will present, please share your ideas in the comments!
+- These posts will be mainly for people, who also studied very little computer science and informatics, but still need to code.
 - *A workflow is personal*, meaning that what I present may not be entirely adequate to your own way of reasoning. But I hope it can inspire you to think about your workflow, and that it can give you ideas on how to make it more efficient.
-- The tools I will present are maintained and well-documented at the present moment, so I will focus on what they can bring you and refer to their documentation for installation and more technical discussions.
+- The tools I will present are maintained and well-documented at the moment where I write these posts, so I will focus on what they can bring you and refer to their documentation for installation and more technical discussions.
 - In this series, I will assume you know basic command lines and how to use your terminal.
 - For those doing theoretical research, I should point out that *writing a $\LaTeX$ document is coding*.
 - I have not used Windows in quite some time, but [Windows Subsystem for Linux](https://docs.microsoft.com/fr-fr/windows/wsl/) allows you to use Linux on Windows without using a virtual machine or a dual boot, which can help for programming. Besides, some tools I will talk about are available on Windows anyway.

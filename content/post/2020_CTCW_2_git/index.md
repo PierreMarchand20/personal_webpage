@@ -33,7 +33,7 @@ projects: ["computer tools"]
 
 Starting with git was an obvious choice, it is the backbone of many tools nowadays, and it will be well-integrated with all the tools we will see in the following CTCW posts. That is why, we will take the time to understand its benefits, and how to use it. The presentation will be organized around what git allows you to do: versioning, remote backup, synchronization and collaborative work.
 
-Each one of these usages will require the previous ones. For example, you need to know how to version your code to use a remote backup, but you do not need to kow a priori how to use git for collaborative work. So that, you can start by reading just what you need.
+Each one of these usages will require the previous ones. For example, you need to know how to version your code to use a remote backup, but you do not need to kow a priori how to use git for collaborative work. So that, you can start by reading just what you need. If you want to go further, I give some [references](#34-to-go-further) to other concepts in git that I do not talk about here.
 
 Note that I present command lines to use git, but there exists a lot of graphical interfaces (see this [list](https://git-scm.com/downloads/guis)), but understanding how git works is still necessary to use them. You can also find a [presentation]({{< ref "/talk/2019_01_10_infomath/index.md" >}}) I did a few years ago on git with a similar approach.
 
@@ -72,7 +72,7 @@ See [Example](#21-setup).
 
 The first benefit of using git is that it allows you to *version* your source code. It means that git will track your files, save their history efficiently, and give you the possibility to easily navigate through the different versions of your files. Using git, you can forget about versioning your files numbering their name like `file1.txt`, `file2.txt`, `filefinal.txt`, `filefinal1.txt`, ... and all the redundancy it implies.
 
-Note that you can do it **locally**, even if in practice most people also use a remote to back up their repository. This will be discussed afterward, and we will stay local for the moment.
+Note that you can do it **locally**, even if in practice most people also use a remote to back up their repository. This will be discussed afterward, and we will keep it local for the moment.
 
 #### Create History
 
@@ -113,7 +113,7 @@ Now that you populated your history's repository, you may want to go back and ch
 
 {{< figure src="HEAD_1.drawio.svg" title="Current state to last commit" lightbox="true" >}}
 
-The command `git log` shows your repository's history, i.e., commit messages, commit IDs, committer's names, and email addresses. And, `git log -2` will only show these information for the two last commits.
+The command `git log` shows your repository's history, i.e., commit messages, commit IDs, committer's names, and email addresses. And, `git log -2` will only show the information for the two last commits.
 
 To navigate your history, you can use
 
@@ -191,13 +191,13 @@ Something wrong can quickly happen with bad practices. Imagine you do a new comm
 Two remarks here:
 
 - It is usually what people discovering git fear the most! But note that it is not specific to git, if you modify one file locally on two computers, you will also have to deal with this situation. Actually, git will tell you that there is an issue if you try `git push` on `Computer 1`, and it will help you solve the issue. So git is a tool to help you deal with this situation, instead of doing everything by hand.
-- That being said, you should avoid this situation because it is more likely to break your code. In the case you are just synchronizing several computers of yours, you can always `git pull` when starting to work on one computer, add/commit all your modifications, and `git push` when you have finished. You should not be in this situation if you follow this workflow.
+- That being said, you should avoid this situation because it is more likely to break your code. In the case where you are just synchronizing several computers of yours, you can always `git pull` when starting to work on one computer, add/commit all your modifications, and `git push` when you have finished. You should not be in this situation if you follow this workflow.
 
 In case you still encounter this situation (you forgot to commit a change, or to push at the end of a working session for example), we refer to the next section.
 
 ### 1.5. Collaboration
 
-If you want to collaborate with some else, or if you work with a team on a project, then the preceding issue may occur more often. It is very likely that your coworkers will commit some changes while you are also working on the repository, so that, you will be in the situation described in the preceding [figure](#figure-repository-on-computer-1-with-diverged-master-branches). To avoid this, you need to adopt a workflow, i.e., a way to work all together with the git repository. There are several solutions depending on how you work with your team/coworkers, the number of contributors, etc. It is an advanced subject, and I give some pointers for more information in the [references](#32-specific-discussions).
+If you want to collaborate with some else, or if you work with a team on a project, then the previous issue may occur more often. It is very likely that your coworkers will commit some changes while you are also working on the repository, so that, you will be in the situation described in the previous [figure](#figure-repository-on-computer-1-with-diverged-master-branches). To avoid this, you need to adopt a workflow, i.e., a way to work all together with the git repository. There are several solutions depending on how you work with your team/coworkers, the number of contributors, etc. It is an advanced subject, and I give some pointers for more information in the [references](#32-specific-discussions).
 
 But here are some general considerations shared by most of them. They usually aim at:
 
