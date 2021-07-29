@@ -22,7 +22,7 @@ authors = ["Jeffrey Galkowski","admin","Euan A. Spence"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "arXiv, 2101.02116"
+publication = "SIAM J. Math. Anal., accepted"
 publication_short = ""
 
 # Abstract and optional shortened version.
