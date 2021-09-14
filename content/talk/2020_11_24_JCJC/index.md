@@ -26,7 +26,7 @@ all_day: true
 publishDate: '2019-02-05T00:00:00'
 
 
-authors: [admin, Alastair Spence, Euan Spence]
+authors: [Jeffrey Galkowski, admin, Alastair Spence, Euan Spence]
 tags:
   - GMRES
   - CFIE

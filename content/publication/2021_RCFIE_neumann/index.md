@@ -22,7 +22,7 @@ authors = ["Jeffrey Galkowski","admin","Euan A. Spence"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = ""
+publication = "arXiv, 2109.06017"
 publication_short = ""
 
 
@@ -59,7 +59,7 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_preprint = "https://people.bath.ac.uk/eas25/neumann.pdf"
+url_preprint = "https://arxiv.org/pdf/2109.06017.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -72,7 +72,7 @@ url_source = ""
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
 # links = [{name = "HAL", url = "https://tel.archives-ouvertes.fr/tel-02922455/"}]
-# links = [{name = "arXiv", url = "https://arxiv.org/abs/2102.05367"}]
+links = [{name = "arXiv", url = "https://arxiv.org/abs/2109.06017"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
