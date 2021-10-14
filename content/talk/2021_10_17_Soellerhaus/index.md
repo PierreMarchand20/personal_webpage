@@ -1,9 +1,9 @@
 ---
 title: 'High-frequency estimates on boundary integral operators for the Helmholtz exterior Neumann problem'
-event: Numerical Waves
-event_url: https://numericalwaves.sciencesconf.org
+event: 19. Soellerhaus Workshop
+event_url: 'https://www.applied.math.tugraz.at/tagungen/FastBEM2021.htm'
 
-location: 'Nice, France'
+location: 'Soellerhaus, Hirschegg, Austria'
 
 abstract: >-
   We study a commonly-used second-kind boundary-integral equation for solving the Helmholtz exterior Neumann problem at high frequency, namely the Regularized Combined Field Integral Equation (RCFIE)[^1]. Writing $\\Gamma$ for the boundary of the obstacle, this integral operator map $L^2(\\Gamma)$ to itself, contrary to its non-regularized version.
@@ -19,7 +19,7 @@ abstract: >-
 
 summary: 'New frequency-explicit bounds on the norms of both the regularised combined field integral equation and its inverse.'
 
-date: '2021-10-07T00:00:00'
+date: '2021-10-17T00:00:00'
 date_end: ''
 all_day: true
 publishDate: '2019-02-05T00:00:00'
@@ -36,12 +36,12 @@ tags:
 categories: 
   - conference
 
-featured: true
+featured: false
 projects: []
 slides: ''
 
 url_pdf: ''
-url_slides: 'https://numericalwaves.sciencesconf.org/data/program/Marchand.pdf'
+url_slides: ''
 url_video: ''
 url_code: ''
 image:
