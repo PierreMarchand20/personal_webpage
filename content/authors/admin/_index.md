@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Associate in applied mathematics
+role: Researcher at Inria
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Bath
-    url: 'https://www.bath.ac.uk/'
+  - name: Inria - POEMS team
+    url: 'https://uma.ensta-paris.fr/poems/main/presentation.html?lang=en'
 
 # Short bio (displayed in user profile at end of posts)
 bio: ''
@@ -76,10 +76,6 @@ email: ""
 # - Visitors
 ---
 
-I am a postdoctoral researcher at the University of Bath, where I am working with [Euan Spence](http://people.bath.ac.uk/eas25/). I am part of the EPSRC-funded project [At the interface between semiclassical analysis and numerical analysis of wave propagation problems](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/R005591/1).
+I am a researcher at [Inria](https://www.inria.fr/fr) in [POEMS](https://uma.ensta-paris.fr/poems/main/presentation.html?lang=en) team. My research focuses on wave propagation problems, Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool]({{< ref "/project/htool/index.md" >}}) with a parallelized matrix-vector product using MPI. It can be used via [FreeFEM](https://freefem.org) for solving BIEs, via [PETSc](https://www.mcs.anl.gov/petsc/) for black-box compression, and directly via C++ or its Python interface.
 
-My research focuses on wave propagation problems, Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for hierarchical matrix techniques called [Htool]({{< ref "/project/htool/index.md" >}}) with a parallelized matrix-vector product using MPI. It can be used via [FreeFEM](https://freefem.org) for solving BIEs, via [PETSc](https://www.mcs.anl.gov/petsc/) for black-box compression, and directly via C++ or its Python interface.
-
-Previously, I did my Ph.D under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Laboratoire Jacques-Louis Lions ([LJLL](https://www.ljll.math.upmc.fr)) in Sorbonne Université, and I was a member of the joint Inria-LJLL project team [Alpines](https://team.inria.fr/alpines/). My thesis was funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
-
-
+Previously, I was a postdoctoral researcher at the University of Bath, where I worked with [Euan Spence](http://people.bath.ac.uk/eas25/). I did my Ph.D under the supervision of [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/) and [Frédéric Nataf](https://www.ljll.math.upmc.fr/nataf/) at Laboratoire Jacques-Louis Lions ([LJLL](https://www.ljll.math.upmc.fr)) in Sorbonne Université, and I was a member of the joint Inria-LJLL project team [Alpines](https://team.inria.fr/alpines/). My thesis was funded by the ANR (French National Research Agency) via the ANR project [NonlocalDD](https://www.ljll.math.upmc.fr/~claeys/nonlocaldd/index.html).
