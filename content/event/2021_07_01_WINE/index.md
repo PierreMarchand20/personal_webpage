@@ -27,7 +27,7 @@ tags:
 
 
 categories: 
-  - poster
+  - seminar
 
 featured: false
 projects: []

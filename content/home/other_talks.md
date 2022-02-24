@@ -12,7 +12,7 @@ subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "talk"
+  page_type = "event"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5
@@ -26,7 +26,7 @@ subtitle = ""
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    categories = ["seminar", "poster"]
+    category = "seminar"
     publication_type = ""
     exclude_featured = false
     exclude_past = false
@@ -67,4 +67,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
