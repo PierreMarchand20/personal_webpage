@@ -3,7 +3,7 @@ title: Schwarz methods and boundary integral equations
 event: Algorithmy 2020
 event_url: ''
 
-location: 'Vysoke Tatry, Podbanske, Slovakia (online talk)'
+location: 'Online'
 
 abstract: 
 summary: 'We present theoretical and numerical results about a new preconditioner for matrices stemming from the boundary element method.'

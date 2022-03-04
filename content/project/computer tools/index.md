@@ -1,39 +1,30 @@
-+++
-title = "Computer tools"
-date = 2018-10-01T13:51:35+02:00
-draft = false
+---
+title: Computer tools
+summary: computer tools for mathematicians and computer scientists
 
-authors = ["admin"]
+tags: 
+- computer tools
 
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["computer tools","personal project"]
-
-# Project summary to display on homepage.
-summary = "computer tools for mathematicians and computer scientists"
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ""
 
-# Does the project detail page use math formatting?
-math = true
+image:
+  caption: Photo by [Bill Oxford](https://unsplash.com/@bill_oxford?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)
+  focal_point: Smart
 
-# Does the project detail page use source code highlighting?
-highlight = true
+links:
+# - icon: twitter
+#   icon_pack: fab
+#   name: Follow
+#   url: https://twitter.com/georgecushen
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = "Photo by [Bill Oxford](https://unsplash.com/@bill_oxford?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)"
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-
-  # Show image only in page previews?
-  preview_only = false
-+++
+---
 I am interested in computer tools that improve your workflow and I truly believe it needs to be more widespread in the mathematical/research community. It helps to be more efficient, to convey your new ideas and simply to be more comfortable in your research. I am far from being an expert, and I am still learning every day, do not hesitate to contact me if you have remarks or suggestions.
 
 With this in mind, I was one of the organizers of the seminar [Infomath](https://ljll.math.upmc.fr/infomath) and I gave some talks about tools that may interest you. In this page, I will also put some tools/information that I think could be helpful for others. If needed, I could write a post to go more in-depth on a particular tool.

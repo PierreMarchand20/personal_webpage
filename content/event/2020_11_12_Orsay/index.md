@@ -3,7 +3,7 @@ title: 'Une analyse de convergence pour GMRES appliquée aux équations intégra
 event: Séminaire d’Analyse Numérique et EDP du Laboratoire de mathématiques de Orsay
 event_url: https://www.imo.universite-paris-saclay.fr/-Analyse-Numerique-et-E-D-P-
 
-location: 'Laboratoire de mathématiques de Orsay (online), France'
+location: 'Online'
 
 abstract: "Dans cet exposé, nous nous intéresserons à la résolution de problèmes de diffraction par for- mulation intégrale avec la présence de cavités elliptiques. Plus précisément, nous utiliserons une formulation intégrale classique, dite “équation combinée des champs” (Combined Field Integral Equation, ou CFIE) discrétisée par éléments de frontière et GMRes (Generalized Minimal Resid- ual method) comme méthode de résolution itérative. L’objectif est de présenter une analyse de convergence de GMRes qui met en évidence la dépendance du nombre d’itérations en fonction de la fréquence lorsque la géométrie du problème contient une cavité elliptique.
 Le choix de GMRes est naturel du fait de la nature non-normale de l’opérateur CFIE. En effet, GMRes a l’avantage de pouvoir résoudre tout problème non-singulier, et en particulier non-normal. Mais l’analyse de convergence est dans ce cas moins évidente, puisque le spectre de l’opérateur n’est plus suffisant. Des bornes sur la vitesse de convergence de GMRes ont notamment été proposées en utilisant le conditionnement des valeurs propres, l’image numérique de l’opérateur, ou encore le pseudospectrum.

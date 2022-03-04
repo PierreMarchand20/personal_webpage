@@ -3,7 +3,7 @@ title: 'Applying GMRES to Helmholtz boundary integral equations: how does the nu
 event: Rencontres JCJC Ondes
 event_url: 'https://jcjc_ondes.pages.math.cnrs.fr'
 
-location: 'Rencontres JCJC Ondes, Online'
+location: 'Online'
 
 abstract: >-
   We are interested in solving scattering problems with strong trapping using the Combined Field Integral Equation (CFIE) and the Generalized Minimal Residual method (GMRes). In this talk, we show a new understanding of how the number of GMRes iterations depends on frequency in this situation.

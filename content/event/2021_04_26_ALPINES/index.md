@@ -1,9 +1,9 @@
 ---
 title: 'Htool+PETSc: Introducing MATHTOOL'
-event: GdT ALPINES
+event: GdT de l'équipe-projet Inria ALPINES
 # event_url: http://www.cmap.polytechnique.fr/~defi/
 
-location: 'Équipe-projet Inria ALPINES, Paris, France'
+location: 'Online'
 
 abstract: ""
 

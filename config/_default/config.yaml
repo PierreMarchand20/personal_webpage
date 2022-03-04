@@ -8,6 +8,24 @@ baseurl: "https://pierremarchand.netlify.com/" # Website URL
 copyright: "" # Footer text, e.g. '© {year} Me'
 
 ############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  # Blog post options
+  - _target:
+      path: /post/**
+    # Which page types are commentable?
+    editable: false
+    reading_time: true
+    commentable: false
+    show_related: false
+    show_breadcrumb: true
+    header:
+      navbar:
+        enable: false
+
+############################
 ## LANGUAGE
 ############################
 
@@ -67,15 +85,9 @@ related:
   includeNewer: true
   toLower: true
   indices:
-    - name: "title"
-      weight: 60.0
-    - name: "summary"
-      weight: 50.0
     - name: tags
-      weight: 80
+      weight: 100
     - name: categories
-      weight: 0.0
-    - name: "authors"
-      weight: 20.0
+      weight: 0
 security:
   _merge: deep

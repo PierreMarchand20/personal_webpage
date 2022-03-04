@@ -1,6 +1,6 @@
 ---
 title: Schwarz methods and boundary integral equations
-event: Oberseminar "Numerical Optimization
+event: Oberseminar "Numerical Optimization"
 event_url: ''
 
 location: 'University of Konstanz, Germany'
