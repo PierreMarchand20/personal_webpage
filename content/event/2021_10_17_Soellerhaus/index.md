@@ -1,6 +1,6 @@
 ---
 title: 'High-frequency estimates on boundary integral operators for the Helmholtz exterior Neumann problem'
-event: 19. Soellerhaus Workshop
+event: "19\\. Soellerhaus Workshop"
 event_url: 'https://www.applied.math.tugraz.at/tagungen/FastBEM2021.htm'
 
 location: 'Soellerhaus, Hirschegg, Austria'

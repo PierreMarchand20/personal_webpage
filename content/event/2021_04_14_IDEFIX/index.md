@@ -1,9 +1,9 @@
 ---
 title: 'Applying GMRES to Helmholtz equation with strong trapping: how does the number of iterations depend on the frequency?'
-event: GdT IDEFIX
-event_url: http://www.cmap.polytechnique.fr/~defi/
+event: GdT de l'équipe-projet Inria IDEFIX
+event_url: https://uma.ensta-paris.fr/idefix/
 
-location: 'Équipe-projet Inria IDEFIX, Saclay, France'
+location: 'Online'
 
 abstract: ""
 
@@ -34,7 +34,7 @@ projects: []
 slides: ''
 
 url_pdf: ''
-url_slides: 'http://www.cmap.polytechnique.fr/~defi/slides_GdT/2021-04-14_Pierre_Marchand_slides.pdf'
+url_slides: 'https://uma.ensta-paris.fr/idefix/slides_GdT/2021-04-14_Pierre_Marchand_slides.pdf'
 url_video: ''
 url_code: ''
 image:

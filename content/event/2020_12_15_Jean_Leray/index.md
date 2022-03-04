@@ -3,7 +3,7 @@ title: 'Une analyse de convergence pour GMRES appliquée aux équations intégra
 event: Séminaire de mathématiques appliquées du Laboratoire de mathématiques Jean Leray
 event_url: https://www.math.sciences.univ-nantes.fr/fr/seminaires/mathematiques-appliquees
 
-location: 'Laboratoire de mathématiques Jean Leray (online), France'
+location: 'Online'
 
 abstract: "Dans cet exposé, nous nous intéresserons à la résolution de problèmes de diffraction par formulation intégrale avec la présence de cavités elliptiques. Plus précisément, nous utiliserons une formulation intégrale classique, dite <<équation combinée des champs>> (Combined Field Integral Equation, ou CFIE) discrétisée par éléments de frontière et GMRes (Generalized Minimal Residual method) comme méthode de résolution itérative. L'objectif est de présenter une analyse de convergence de GMRes qui met en évidence la dépendance du nombre d'itérations en fonction de la fréquence lorsque la géométrie du problème contient une cavité elliptique. Ce travail est effectué en collaboration avec Alastair Spence et Euan Spence."
 

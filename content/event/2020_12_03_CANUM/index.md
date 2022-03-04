@@ -3,7 +3,7 @@ title: "Une analyse de convergence pour GMRES appliquée aux équations intégra
 event: "Congrès d'Analyse Numérique pour les Jeunes - 2020"
 event_url: 'https://indico.math.cnrs.fr/event/6098/'
 
-location: "Congrès d'Analyse Numérique pour les Jeunes - 2020, Online"
+location: "Online"
 
 abstract: "Dans cet exposé, nous nous intéresserons à la résolution de problèmes de diffraction par formulation intégrale avec la présence de cavités elliptiques. Plus précisément, nous utiliserons une formulation intégrale classique, dite équation combinée des champs (Combined Field Integral Equation, ou CFIE) discrétisée par éléments de frontière et GMRes (Generalized Minimal Residual method) comme méthode de résolution itérative. L'objectif est de présenter une analyse de convergence de GMRes qui met en évidence la dépendance du nombre d'itérations en fonction de la fréquence lorsque la géométrie du problème contient une cavité elliptique.
 

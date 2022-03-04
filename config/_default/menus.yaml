@@ -30,7 +30,7 @@ main:
     weight: 4
   - parent: "Talks"
     name: "All"
-    url: "talk"
+    url: "event"
     weight: 5
   - name: "Projects"
     url: "#projects"

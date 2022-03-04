@@ -1,6 +1,6 @@
 ---
 title: 'Applying GMRES to Helmholtz boundary integral equations: how does the number of iterations depend on the frequency in the presence of strong trapping?'
-event: 18. Soellerhaus Workshop
+event: 18\. Soellerhaus Workshop
 event_url: 'https://www.applied.math.tugraz.at/tagungen/'
 
 location: 'Soellerhaus, Hirschegg, Austria'
