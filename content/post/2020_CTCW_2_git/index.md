@@ -35,7 +35,7 @@ Starting with git was an obvious choice, it is the backbone of many tools nowada
 
 Each one of these usages will require the previous ones. For example, you need to know how to version your code to use a remote backup, but you do not need to kow a priori how to use git for collaborative work. So that, you can start by reading just what you need. If you want to go further, I give some [references](#34-to-go-further) to other concepts in git that I do not talk about here.
 
-Note that I present command lines to use git, but there exists a lot of graphical interfaces (see this [list](https://git-scm.com/downloads/guis)), but understanding how git works is still necessary to use them. You can also find a [presentation]({{< ref "/talk/2019_01_10_infomath/index.md" >}}) I did a few years ago on git with a similar approach.
+Note that I present command lines to use git, but there exists a lot of graphical interfaces (see this [list](https://git-scm.com/downloads/guis)), but understanding how git works is still necessary to use them. You can also find a [presentation]({{< ref "/event/2019_01_10_infomath/index.md" >}}) I did a few years ago on git with a similar approach.
 
 [Live examples](#2-examples) are available via [asciinema](https://asciinema.org) files. Note that there are not just videos, you can also copy/paste displayed command lines.
 
@@ -97,7 +97,7 @@ By default, the first branch you create is called `master` [^1].
 
 See [Example](#22-create-history).
 
-{{% alert note %}}
+{{% callout note %}}
 
 Why do you need two commands just to update your repository?
 
@@ -105,7 +105,7 @@ It is usually the first point that confuses people discovering git. I refer to s
 
 For example, if you add a feature to your code, and fix a bug at the same time. You can add everything, review everything, commit the changes associated with your fix with the specific description, and then do the same for your new feature. Remember that your commit messages need to be descriptive enough to easily navigate the repository's history.
 
-{{% /alert %}}
+{{% /callout %}}
 
 #### Navigating the history
 
@@ -130,11 +130,11 @@ To navigate your history, you can use
 
 See [Example](#23-navigating-the-history).
 
-{{% alert note %}}
+{{% callout note %}}
 
 You are lost? `git status` will tell you where you are and what you can do.
 
-{{% /alert %}}
+{{% /callout %}}
 
 ### 1.3. Back up
 
@@ -285,13 +285,13 @@ We configure git for the first time:
 - set an identity
 - initialize repository
 
-{{< asciinema key="2020_CTCW_2_git/setup" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/setup.cast" >}}
 
 ### 2.2. Create History
 
 We create our first file and track it with git.
 
-{{< asciinema key="2020_CTCW_2_git/firstfile" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/firstfile.cast" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.3. Navigating the history
 
@@ -303,13 +303,13 @@ Taking a similar example as described [here](#figure-git-checkout-head2). We hav
 
 Remark how `HEAD` is said to be on master when on the third commit, but not the others.
 
-{{< asciinema key="2020_CTCW_2_git/navigating" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/navigating.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.3. Adding remote
 
 Note how `origin/master` appears now when using `git log`.
 
-{{< asciinema key="2020_CTCW_2_git/remote" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/remote.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.4. Working with remote
 
@@ -317,7 +317,7 @@ Similarly to this [example](#figure-local-new-commit), we create a new commit lo
 
 Note that `origin/master` appears on the third commit, while `HEAD` and `master` are on the fourth commit after `git commit`.
 
-{{< asciinema key="2020_CTCW_2_git/sync" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/sync.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.5. Auto merging
 
@@ -325,13 +325,13 @@ We reproduce exactly the example given [here](#figure-merging) with one reposito
 
 If you try to reproduce this example, `git` will open your editor to write a commit message (`nano` by default). But for auto merges like this, the commit message is already written and you can just close your editor. I removed this behavior of opening my editor in case of auto merge for the sake of the live example, but you should keep this behavior.
 
-{{< asciinema key="2020_CTCW_2_git/automerge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/automerge.cast" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.6. Merging
 
 We reproduce exactly the example given [here](#figure-merging) with one repository shared by two computers, represented here by two different folders on the same computer. The repository is one commit further on `Computer 2` and on `Computer 1`, compared to the remote. But the two changes overlap.
 
-{{< asciinema key="2020_CTCW_2_git/merge" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2020_CTCW_2_git/merge.cast" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ## 3. References
 
