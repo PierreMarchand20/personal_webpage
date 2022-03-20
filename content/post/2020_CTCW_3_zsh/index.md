@@ -61,14 +61,14 @@ Here are some features of zsh that I like and often use (see next [section](#3-p
 
 - **Completion** (builtin and improved with [zsh-completions](https://github.com/zsh-users/zsh-completions)): just use `tab` to complete your command line
   - **recursive path completion**: no need to write the full directory/file names
-{{< asciicast src="casts/2020_CTCW_3_zsh/path_expansion.cast" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
-  - **command arguments completion**: `zsh` suggests arguments to the command you wrote with a description of each option (for example, `git` we saw on the [previous post]({{< ref "/post/2020_CTCW_2_git/index.md" >}})) {{< asciicast src="casts/2020_CTCW_3_zsh/argument_command_completion.cast" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
-  - **command arguments flags**: same as the previous feature, but for flags {{< asciicast src="casts/2020_CTCW_3_zsh/flag_command_completion.cast" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
-  - **variable expansion**: {{< asciicast src="casts/2020_CTCW_3_zsh/variable_expansion.cast" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
-- **Better history navigation**: you can search for a command in your history with any substring of this command using up and down arrows (with [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)) {{< asciicast src="casts/2020_CTCW_3_zsh/history_substring_search.cast" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciicast src="/casts/2020_CTCW_3_zsh/path_expansion.cast" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
+  - **command arguments completion**: `zsh` suggests arguments to the command you wrote with a description of each option (for example, `git` we saw on the [previous post]({{< ref "/post/2020_CTCW_2_git/index.md" >}})) {{< asciicast src="/casts/2020_CTCW_3_zsh/argument_command_completion.cast" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
+  - **command arguments flags**: same as the previous feature, but for flags {{< asciicast src="/casts/2020_CTCW_3_zsh/flag_command_completion.cast" rows="25" preload="1" theme="solarized-dark" title="Setup git">}}
+  - **variable expansion**: {{< asciicast src="/casts/2020_CTCW_3_zsh/variable_expansion.cast" rows="10" preload="1" theme="solarized-dark" title="Setup git">}}
+- **Better history navigation**: you can search for a command in your history with any substring of this command using up and down arrows (with [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)) {{< asciicast src="/casts/2020_CTCW_3_zsh/history_substring_search.cast" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
 - **Autosuggestion**: the last command starting by what you write is suggested and you can use `tab` to autocomplete it (with [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions))
-{{< asciicast src="casts/2020_CTCW_3_zsh/autosuggestion.cast" rows="15" preload="1" theme="solarized-dark" title="Setup git">}}
-- **Syntax highlighting**: a few examples (with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)) {{< asciicast src="casts/2020_CTCW_3_zsh/syntax_highlighting.cast" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciicast src="/casts/2020_CTCW_3_zsh/autosuggestion.cast" rows="15" preload="1" theme="solarized-dark" title="Setup git">}}
+- **Syntax highlighting**: a few examples (with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)) {{< asciicast src="/casts/2020_CTCW_3_zsh/syntax_highlighting.cast" rows="20" preload="1" theme="solarized-dark" title="Setup git">}}
 - **Plugin and theme support**: zsh is known for its [plugin managers](#3-plugin-managers) that allows installing/activating the previously cited plugins and many others, but it is also known for its highly customizable [prompt](#4-prompts). We are going to see how to benefit from them in the following.
 
 ## 3. Plugin managers
