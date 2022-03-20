@@ -1,12 +1,12 @@
 ---
-title: Computer Tools and Coding Workflow in 2020
+title: Computer Tools and Coding Workflow in 2022
 subtitle: CTCW, a series of posts to improve your coding experience
-summary: Introduction of the series of posts CTCW 2020
+summary: Introduction of the series of posts CTCW 2022
 authors:
 - admin
-tags: ["computer tools","motivation","CTCW","2020"]
-categories: ["computer tools","CTCW 2020"]
-# date: "2020-09-02T09:00:00Z"
+tags: ["computer tools","motivation","CTCW","2022"]
+categories: ["computer tools","CTCW 2022"]
+# date: "2022-09-02T09:00:00Z"
 
 
 featured: false
@@ -68,14 +68,14 @@ Obviously, it seems more complicated than doing everything in one code/script, a
 - The fact that `Computation` takes `Input` as an argument makes you able to loop over the input parameters, and to generate more data with a simple script.
 - If you have several pipelines with similar `Computation` component, you can try to merge them to make one pipeline, that takes more input to recover the exact previous computations.
 - You can do as many analyses as you want on `Data`.
-- Using well-know formats, such as `csv`, `json` or others (depending on your data) for `Input`, `Data` and `Output` makes you able to use most of the languages/softwares I/O utilities, post-processing and plotting tools. For example, you can easily use the python modules `pandas` and `matplotlib`, $\LaTeX$ package `pgfplot`, etc.
+- Using well-know formats, such as `csv`, `json` or others (depending on your data) for `Input`, `Data` and `Output` makes you able to use most of the languages/software programs I/O utilities, post-processing and plotting tools. For example, you can easily use the python modules `pandas` and `matplotlib`, $\LaTeX$ package `pgfplot`, etc.
 - You can save and store your results `Data` and `Output`.
 
 Of course, you should not break your pipeline into too many components, there is a balance to be struck, and this was a very simple example just to show you how changing your workflow actually allows you to **do more in your core work**. In this example, more computations with more inputs, and more analyses using more post-processing components.
 
 ### Take home message <!-- omit in toc -->
 
-It is very valuable to take time to work on your workflow, even for your core work. One other reason is that it is a transferable skill that you will probably be able to use throughout your career. It is also very intellectually satisfying to see we can improve ourselves and to observe the net profit we obtain in our day-to-day live at work.
+It is very valuable to take time to work on your workflow, even for your core work. One other reason is that it is a transferable skill that you will probably be able to use throughout your career. It is also very intellectually satisfying to see we can improve ourselves and to observe the net profit we obtain in our day-to-day life at work.
 
 ## 3. Program
 

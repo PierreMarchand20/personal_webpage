@@ -1,15 +1,15 @@
 ---
-title: "CTCW 2020: git"
+title: "CTCW 2022: git"
 subtitle: Let's plant some trees!
 summary: Incremental presentation of git
 authors:
 - admin
-# tags: ["computer tools","git","CTCW","2020"]
-# categories: ["computer tools","CTCW 2020"]
-# date: "2020-09-09T09:00:00Z"
+# tags: ["computer tools","git","CTCW","2022"]
+# categories: ["computer tools","CTCW 2022"]
+# date: "2022-09-09T09:00:00Z"
 
-tags: ["computer tools","git","CTCW","2020"]
-categories: ["computer tools","CTCW 2020"]
+tags: ["computer tools","git","CTCW","2022"]
+categories: ["computer tools","CTCW 2022"]
 
 featured: false
 draft: false
@@ -33,7 +33,7 @@ projects: ["computer tools"]
 
 Starting with git was an obvious choice, it is the backbone of many tools nowadays, and it will be well-integrated with all the tools we will see in the following CTCW posts. That is why, we will take the time to understand its benefits, and how to use it. The presentation will be organized around what git allows you to do: versioning, remote backup, synchronization and collaborative work.
 
-Each one of these usages will require the previous ones. For example, you need to know how to version your code to use a remote backup, but you do not need to kow a priori how to use git for collaborative work. So that, you can start by reading just what you need. If you want to go further, I give some [references](#34-to-go-further) to other concepts in git that I do not talk about here.
+Each one of these usages will require the previous ones. For example, you need to know how to version your code to use a remote backup, but you do not need to know a priori how to use git for collaborative work. So that, you can start by reading just what you need. If you want to go further, I give some [references](#34-to-go-further) to other concepts in git that I do not talk about here.
 
 Note that I present command lines to use git, but there exists a lot of graphical interfaces (see this [list](https://git-scm.com/downloads/guis)), but understanding how git works is still necessary to use them. You can also find a [presentation]({{< ref "/event/2019_01_10_infomath/index.md" >}}) I did a few years ago on git with a similar approach.
 
@@ -83,7 +83,7 @@ git add FirstFile.txt
 git commit FirstFile.txt -m "first file added"
 ```
 
-The first command makes the file `FirstFile.txt` *staged*, and the second one commit this version of the file in the repository's history, with a small comment. The repository's history can be represented as a graph/tree, where each commit is a node, containing a state of the whole repository, a comment describing the commit, a unique commit ID (an hexadecimal number of 40 digits), the commit date, the committer's name, and email address.
+The first command makes the file `FirstFile.txt` *staged*, and the second one commit this version of the file in the repository's history, with a small comment. The repository's history can be represented as a graph/tree, where each commit is a node, containing a state of the whole repository, a comment describing the commit, a unique commit ID (a hexadecimal number of 40 digits), the commit date, the committer's name, and email address.
 
 Note that if you do not add the `-m` flag followed by a string, `git` will open your editor (default to `nano`) for you to write a commit message instead.
 
@@ -117,7 +117,7 @@ The command `git log` shows your repository's history, i.e., commit messages, co
 
 To navigate your history, you can use
 
-- relative references: to checkout the second generation ancestor of `HEAD` use `HEAD~2`.
+- relative references: to check out the second generation ancestor of `HEAD` use `HEAD~2`.
 
 - absolute references: using the commit ID, `git checkout 291bb0` (first characters are enough)
 - to return to the last state of your repository, `git checkout master`.
@@ -138,15 +138,15 @@ You are lost? `git status` will tell you where you are and what you can do.
 
 ### 1.3. Back up
 
-Another advantage of git is the possibility to back up your repository in a remote server. It is said to be a *distributed* version-control system (unlike svn for example), because both your local repository and the remote repository will have the full history after each synchronization.
+Another advantage of git is the possibility to back up your repository in a remote server. It is said to be a *distributed* version-control system (unlike SVN for example), because both your local repository and the remote repository will have the full history after each synchronization.
 
-#### Setup the remote
+#### Set up the remote
 
-First, you need to create a remote repository in [GitHub](https://github.com), [Gitlab](https://about.gitlab.com), [Bitbucket](https://bitbucket.org/) or some other providers (or your own git server). For example, using GitHub:
+First, you need to create a remote repository in [GitHub](https://github.com), [GitLab](https://about.gitlab.com), [Bitbucket](https://bitbucket.org/) or some other providers (or your own git server). For example, using GitHub:
 
 ![GitHub](github.png)
 
-As described in the previous figure, we need to add the remote url to the local repository with
+As described in the previous figure, we need to add the remote URL to the local repository with
 
 ```bash
 git remote add origin https://github.com/PierreMarchand20/YourRepository.git
@@ -204,7 +204,7 @@ But here are some general considerations shared by most of them. They usually ai
 - making the history's repository/tree as flat as possible. This makes it easier to navigate between commits,
 - avoiding situations with diverging branches, and thus, limiting the risks of breaking your code.
 
-And, they usually rely on one of the two following git operations, if not both: `git merge` and `git rebase`. Both commands allow to merge two branches, but the outcome is different as we will see.
+And, they usually rely on one of the two following git operations, if not both: `git merge` and `git rebase`. Both commands allow merging two branches, but the outcome is different as we will see.
 
 #### Merge
 
@@ -285,13 +285,13 @@ We configure git for the first time:
 - set an identity
 - initialize repository
 
-{{< asciicast src="/casts/2020_CTCW_2_git/setup.cast" >}}
+{{< asciicast src="/casts/2022_CTCW_2_git/setup.cast" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.2. Create History
 
 We create our first file and track it with git.
 
-{{< asciicast src="/casts/2020_CTCW_2_git/firstfile.cast" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
+{{< asciicast src="/casts/2022_CTCW_2_git/firstfile.cast" rows="30" preload="1" theme="solarized-dark" title="Setup git">}}
 
 ### 2.3. Navigating the history
 
@@ -303,13 +303,13 @@ Taking a similar example as described [here](#figure-git-checkout-head2). We hav
 
 Remark how `HEAD` is said to be on master when on the third commit, but not the others.
 
-{{< asciicast src="/casts/2020_CTCW_2_git/navigating.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2022_CTCW_2_git/navigating.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.3. Adding remote
 
 Note how `origin/master` appears now when using `git log`.
 
-{{< asciicast src="/casts/2020_CTCW_2_git/remote.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2022_CTCW_2_git/remote.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.4. Working with remote
 
@@ -317,7 +317,7 @@ Similarly to this [example](#figure-local-new-commit), we create a new commit lo
 
 Note that `origin/master` appears on the third commit, while `HEAD` and `master` are on the fourth commit after `git commit`.
 
-{{< asciicast src="/casts/2020_CTCW_2_git/sync.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2022_CTCW_2_git/sync.cast" rows="30" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.5. Auto merging
 
@@ -325,13 +325,13 @@ We reproduce exactly the example given [here](#figure-merging) with one reposito
 
 If you try to reproduce this example, `git` will open your editor to write a commit message (`nano` by default). But for auto merges like this, the commit message is already written and you can just close your editor. I removed this behavior of opening my editor in case of auto merge for the sake of the live example, but you should keep this behavior.
 
-{{< asciicast src="/casts/2020_CTCW_2_git/automerge.cast" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2022_CTCW_2_git/automerge.cast" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ### 2.6. Merging
 
 We reproduce exactly the example given [here](#figure-merging) with one repository shared by two computers, represented here by two different folders on the same computer. The repository is one commit further on `Computer 2` and on `Computer 1`, compared to the remote. But the two changes overlap.
 
-{{< asciicast src="/casts/2020_CTCW_2_git/merge.cast" rows="35" preload="1" theme="solarized-dark" title="test">}}
+{{< asciicast src="/casts/2022_CTCW_2_git/merge.cast" rows="35" preload="1" theme="solarized-dark" title="test">}}
 
 ## 3. References
 
