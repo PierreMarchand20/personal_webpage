@@ -61,8 +61,9 @@ That being said, there exists several tools to do all the heavy lifting. At the 
 
 - to set up your [zsh]({{< ref "/post/2022_CTCW_3_zsh/index.md" >}}) configuration (plugin manager and/or prompt) or [git]({{< ref "/post/2022_CTCW_2_git/index.md" >}}) (the `git config` options),
 - or to install packages using your system/language package manager
-    - on macOS when using [Homebrew](https://brew.sh/index_fr): you can store a `.Brewfile` in your dotfile repository and call ... in your bootstrap,
-    - for python when using [pip](): you can store a `requirement.txt` file and call ... in your bootstrap
+    - on macOS when using [Homebrew](https://brew.sh/index_fr): you can store a [.Brewfile](https://github.com/Homebrew/homebrew-bundle) in your dotfile repository and call `brew bundle`,
+    - for python when using [pip](https://pip.pypa.io): you can store a [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files) file,
+- or to set up your OS settings. In particular, for macOS you can look at this [file](https://github.com/mathiasbynens/dotfiles/blob/master/.macos).
 
 {{% callout note %}}
 
@@ -70,6 +71,7 @@ That being said, there exists several tools to do all the heavy lifting. At the 
 
 {{% /callout %}}
 
+There exists a lot of tools to manage dotfiles, they all have their own strategy (wrapping git, using symlinks, ...). The best thing to do is to try by yourself and check which one fits best your needs, here is a non-exhaustive [list](https://dotfiles.github.io/utilities/).
 
 ## 3. References
 
