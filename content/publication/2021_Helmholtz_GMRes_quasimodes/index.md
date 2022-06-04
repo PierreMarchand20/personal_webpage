@@ -1,6 +1,6 @@
 +++
 title = "Applying GMRES to the Helmholtz equation with strong trapping: how does the number of iterations depend on the frequency?"
-date = 2021-01-06T17:07:23+01:00
+date = 2022-01-06T17:07:23+01:00
 
 # Schedule page publish date (NOT publication's date).
 publishDate= "2021-01-06T12:07:23+01:00"
