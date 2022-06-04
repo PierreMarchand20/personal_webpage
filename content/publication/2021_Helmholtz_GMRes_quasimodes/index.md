@@ -19,10 +19,10 @@ authors = ["admin","Jeffrey Galkowski","Alastair Spence","Euan A. Spence"]
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Adv. Comp. Math., accepted"
+publication = "_Adv. Comp. Math._, June 2022, Vol. 48, No. 4"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -72,7 +72,7 @@ url_source = ""
 links = [{name = "arXiv", url = "https://arxiv.org/abs/2102.05367"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1007/s10444-022-09931-9"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
