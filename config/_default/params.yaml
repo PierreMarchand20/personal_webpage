@@ -122,7 +122,7 @@ features:
     #   "": Disabled
     #   "disqus": Disqus (https://disqus.com)
     #   "commento": Commento (https://commento.io)
-    provider: "disqus"
+    provider: ""
     disqus:
       shortname: ""
       show_count: true
