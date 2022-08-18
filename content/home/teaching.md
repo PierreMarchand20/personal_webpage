@@ -14,6 +14,13 @@ subtitle = ""
 
 +++
 
+### 2021-2022 at ENSTA
+
+- *Introduction to Matlab [MO102]*\
+14 hours -- lecturers: Pierre Carpentier, David Filliat and Eric Lunéville
+- *Quadratic optimization [AO101]*\
+20 hours -- lecturers: Benjamin Bonrepeaux and Wim Van Ackooij
+
 ### 2017-2018 at Université Pierre et Marie Curie
 
 - *M1 : Calcul scientifique pour les grands systèmes linéaires [4M053]*\
