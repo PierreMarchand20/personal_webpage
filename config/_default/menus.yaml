@@ -10,9 +10,9 @@ main:
   - name: "Publications"
     url: "#publications"
     weight: 2
-  - name: "Posts"
-    url: "#posts"
-    weight: 3
+  # - name: "Posts"
+  #   url: "#posts"
+  #   weight: 3
   - identifier: "Talks"
     name: "Talks"
     weight: 3

@@ -1,6 +1,6 @@
 ---
 title: Computer tools
-summary: computer tools for mathematicians and computer scientists
+summary: Computer tools for mathematicians and computer scientists
 
 tags: 
 - computer tools
