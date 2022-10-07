@@ -32,7 +32,7 @@ tags:
 categories: 
   - events
 
-featured: true
+featured: false
 projects: []
 slides: ''
 
