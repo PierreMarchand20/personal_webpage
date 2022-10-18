@@ -22,7 +22,7 @@ authors = ["admin","Jeffrey Galkowski","Alastair Spence","Euan A. Spence"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "_Adv. Comp. Math._, June 2022, Vol. 48, No. 4"
+publication = "_Advances in Computational Mathematics_, June 2022, Vol. 48, No. 4"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -68,8 +68,8 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
-# links = [{name = "HAL", url = "https://tel.archives-ouvertes.fr/tel-02922455/"}]
-links = [{name = "arXiv", url = "https://arxiv.org/abs/2102.05367"}]
+# links = [{name = "HAL", url = "https://hal.inria.fr/hal-03810288"}]
+links = [{name = "HAL", url = "https://hal.inria.fr/hal-03810288"},{name = "arXiv", url = "https://arxiv.org/abs/2102.05367"}]
 
 # Digital Object Identifier (DOI)
 doi = "10.1007/s10444-022-09931-9"

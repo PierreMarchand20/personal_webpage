@@ -22,7 +22,7 @@ authors = ["Jeffrey Galkowski","admin","Euan A. Spence"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "_SIAM J. Math. Anal._, Jan 2021, Vol. 53, No. 6, Pages 6724-6770"
+publication = "_SIAM Journal on Mathematical Analysis_, Jan 2021, Vol. 53, No. 6, Pages 6724-6770"
 publication_short = ""
 
 # Abstract and optional shortened version.
@@ -68,8 +68,8 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
-# links = [{name = "HAL", url = "https://tel.archives-ouvertes.fr/tel-02922455/"}]
-links = [{name = "arXiv", url = "https://arxiv.org/abs/2101.02116"}]
+# links = [{name = "HAL", url = "https://hal.archives-ouvertes.fr/hal-03114612"}]
+links = [{name = "HAL", url = "https://hal.archives-ouvertes.fr/hal-03114612"},{name = "arXiv", url = "https://arxiv.org/abs/2101.02116"}]
 
 # Digital Object Identifier (DOI)
 doi = "10.1137/21M1399658"

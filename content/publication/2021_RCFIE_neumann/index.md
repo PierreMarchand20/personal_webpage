@@ -1,6 +1,6 @@
 +++
 title = "High-frequency estimates on boundary integral operators for the Helmholtz exterior Neumann problem"
-date = 2021-05-06T17:07:23+01:00
+date = 2022-10-04T17:07:23+01:00
 
 # Schedule page publish date (NOT publication's date).
 publishDate= "2021-01-06T12:07:23+01:00"
@@ -19,10 +19,10 @@ authors = ["Jeffrey Galkowski","admin","Euan A. Spence"]
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "arXiv, 2109.06017"
+publication = "_Integral Equations and Operator Theory_, June 2022, Vol. 94, No. 4 "
 publication_short = ""
 
 
@@ -71,11 +71,11 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # links = [{name = "Custom Link", url = "http://example.org"}]
-# links = [{name = "HAL", url = "https://tel.archives-ouvertes.fr/tel-02922455/"}]
-links = [{name = "arXiv", url = "https://arxiv.org/abs/2109.06017"}]
+# links = [{name = "HAL", url = "https://hal.inria.fr/hal-03810414"}]
+links = [{name = "HAL", url = "https://hal.inria.fr/hal-03810414"},{name = "arXiv", url = "https://arxiv.org/abs/2109.06017"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1007/s00020-022-02715-2"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

@@ -60,6 +60,12 @@ social:
   - icon: orcid
     icon_pack: ai
     link: "https://orcid.org/0000-0002-2522-6837"
+  - icon: hal
+    icon_pack: ai
+    link: "https://cv.archives-ouvertes.fr/pierre-marchand"
+  - icon: arxiv
+    icon_pack: ai
+    link: "https://arxiv.org/a/marchand_p_1.html" 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
