@@ -13,8 +13,8 @@ appearance:
   #   Browse built-in themes in `themes/academic/data/themes/`
   #   Browse user installed themes in `data/themes/`
   theme_day: ocean
-  # theme_night: minimal
-  day_night: true
+  theme_night: dark
+
   # # Enable users to switch between day and night mode?
   # day_night: false
 
@@ -22,7 +22,7 @@ appearance:
   #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
   #   Browse built-in font sets in `themes/academic/data/fonts/`
   #   Browse user installed font sets in `data/fonts/`
-  font: "Ocean"
+  font: "Native"
 
   # Choose a font size.
   # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -72,7 +72,7 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: false
+    show_day_night: true
     show_search: true
     highlight_active_link: true
 
@@ -84,6 +84,8 @@ features:
   # Enable source code highlighting? true/false
   # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
     enable: true
     extra_languages:
       - r
@@ -122,12 +124,17 @@ features:
     #   "": Disabled
     #   "disqus": Disqus (https://disqus.com)
     #   "commento": Commento (https://commento.io)
-    provider: "disqus"
+    provider: ""
     disqus:
       shortname: ""
-      show_count: true
+      show_count: false
     commento:
       url: ""
+    giscus:
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
 
   search:
     # Search provider:

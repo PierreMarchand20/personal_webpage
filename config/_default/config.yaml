@@ -8,24 +8,6 @@ baseurl: "https://pierremarchand.netlify.com/" # Website URL
 copyright: "" # Footer text, e.g. '© {year} Me'
 
 ############################
-## PAGE OPTIONS
-############################
-
-cascade:
-  # Blog post options
-  - _target:
-      path: /post/**
-    # Which page types are commentable?
-    editable: false
-    reading_time: true
-    commentable: false
-    show_related: false
-    show_breadcrumb: true
-    header:
-      navbar:
-        enable: false
-
-############################
 ## LANGUAGE
 ############################
 
@@ -41,8 +23,8 @@ removePathAccents: true # Workaround for https://github.com/gohugoio/hugo/issues
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -90,4 +72,8 @@ related:
     - name: categories
       weight: 0
 security:
+  _merge: deep
+sitemap:
+  _merge: deep
+minify:
   _merge: deep
