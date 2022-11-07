@@ -5,7 +5,9 @@ event_url: https://numericalwaves.sciencesconf.org
 
 location: 'Nice, France'
 
-abstract: >-
+math: true 
+
+abstract: |-
   We study a commonly-used second-kind boundary-integral equation for solving the Helmholtz exterior Neumann problem at high frequency, namely the Regularized Combined Field Integral Equation (RCFIE)[^1]. Writing $\\Gamma$ for the boundary of the obstacle, this integral operator map $L^2(\\Gamma)$ to itself, contrary to its non-regularized version.
 
   We prove new frequency-explicit bounds on the norms of both the RCFIE and its inverse. The bounds on the norm are valid for piecewise-smooth $\\Gamma$ and are sharp, and the bounds on the norm of the inverse are valid for smooth $\\Gamma$ and are observed to be sharp at least when $\\Gamma$ is curved.

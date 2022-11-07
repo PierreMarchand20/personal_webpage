@@ -20,7 +20,7 @@ content:
   # Filter on criteria
   filters:
     folders:
-      - talk
+      - event
     author: ""
     category: "conference"
     tag: ""

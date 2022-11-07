@@ -5,7 +5,7 @@ event_url: https://waves2022.apps.math.cnrs.fr
 
 location: 'ENSTA, Palaiseau, France'
 
-abstract: >-
+abstract: |-
   In this talk, we consider solving the Helmholtz equation posed in the exterior of a smooth obstacle, with Neumann boundary conditions, and using second-kind boundary integral equations (BIEs). We study the h-version of the Galerkin boundary element method, and its accuracy at high-frequency.
     
   The study of the behaviour of Galerkin error when the frequency increases requires, in particular, high-frequency estimates for the considered boundary integral operators. In the case of Dirichlet boundary condition, results are well-known in the literature for the standard second-kind BIE, but in the case of Neumann boundary condition, where regularisation techniques are commonly used, such estimates are rare.

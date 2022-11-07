@@ -29,9 +29,9 @@ tags:
   - Waves
 
 
-categories: ''
+categories: 'event'
 
-featured: true
+featured: false
 projects: []
 slides: ''
 
