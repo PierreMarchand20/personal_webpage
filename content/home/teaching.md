@@ -6,7 +6,7 @@
 widget = "blank"
 headless = true  # This file represents a page section.
 active = true
-weight = 61  # Order that this section will appear.
+weight = 80  # Order that this section will appear.
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Teaching"

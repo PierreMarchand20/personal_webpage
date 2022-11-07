@@ -19,9 +19,12 @@ content:
   count: 5
   # Filter on criteria
   filters:
+    # folders:
+    #   - event
     author: ""
-    category: "events"
+    category: ""
     tag: ""
+    featured_only: true
     exclude_featured: false
     exclude_future: false
     exclude_past: false
@@ -37,5 +40,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: community/compact
 ---

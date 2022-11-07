@@ -34,21 +34,21 @@ main:
     weight: 5
   - name: "Projects"
     url: "#projects"
-    weight: 4
+    weight: 7
   - name: "Events"
     url: "#events"
-    weight: 5
+    weight: 8
   - name: "Supervision"
     url: "#supervision"
-    weight: 6
+    weight: 9
   - name: "Teaching"
     url: "#teaching"
-    weight: 7
+    weight: 10
   - name: "Contact"
     url: "#contact"
-    weight: 8
+    weight: 11
   # Link to a PDF of your resume/CV from the menu.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   - name: "CV"
     url: "https://www.dropbox.com/s/k95tyesyfvzpea8/  CV_MARCHAND_english.pdf?dl=0"
-    weight: 9
+    weight: 12

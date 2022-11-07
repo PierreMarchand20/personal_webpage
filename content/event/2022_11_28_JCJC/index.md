@@ -1,6 +1,6 @@
 ---
 title: 'Rencontre JCJC Ondes 2022'
-event: Rencontre JCJC Ondes 2022
+event: JCJC Ondes 2022
 event_url: https://jcjc_ondes.pages.math.cnrs.fr/
 
 location: "Inria Université Côte d'Azur, Palaiseau, France"
@@ -29,10 +29,9 @@ tags:
   - Waves
 
 
-categories: 
-  - events
+categories: ''
 
-featured: false
+featured: true
 projects: []
 slides: ''
 
