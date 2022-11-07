@@ -3,7 +3,7 @@ title: ElastoPhi
 summary: Research project conducted during the summer school CEMRACS in 2016
 
 tags: 
-- computer tools
+- research project
 
 authors:
 - Ibtihel Ben Gharbia
@@ -32,7 +32,8 @@ url_video: ""
 
 ---
 
-## CEMRACS 2016 Numerical challenges in parallel scientific computing July 18th - August 26th 
+## CEMRACS 2016 Numerical challenges in parallel scientific computing July 18th - August 26th
+
 I attended a one-week course on HPC and numerical methods, followed by a five-week project supervised by [Xavier Claeys](https://www.ljll.math.upmc.fr/~claeys/), Ibtihel Ben Gharbia and Pierre-Henri Tournier. I worked for six weeks on the project ElastoPhi with [Marcella Bonazzoli](https://www.ljll.math.upmc.fr/bonazzoli/).
 
 We studied the efficiency of a *complexity reduction technique* based on hierarchical matrices and adaptive cross approximation applied to matrices provided by [IFPEN](http://www.ifpenergiesnouvelles.com) (French Institut of Petroleum). Those matrices came from the discretization of an elastostatic problem posed at the surface of highly *irregular crack networks*.

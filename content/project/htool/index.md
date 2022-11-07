@@ -6,16 +6,17 @@ tags:
 - htool
 - hierarchical matrix
 - distributed parallelism
+- open-source tool
 
 authors:
 - admin
 - Pierre-Henri Tournier
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://htool-documentation.readthedocs.io/en/latest/"
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Example of hierarchical matrix produced by Htool
   focal_point: Left
 
 links:
@@ -30,7 +31,7 @@ url_video: ""
 
 
 ---
-Htool is an implementation of hierarchical matrices (cf. this [reference](http://www.springer.com/gp/book/9783662473238) or this [one](http://www.springer.com/gp/book/9783540771463)), it was written to test *Domain Decomposition Methods* (DDM) applied to *Boundary Element Method* (BEM). It provides:
+<!-- Htool is an implementation of hierarchical matrices (cf. this [reference](http://www.springer.com/gp/book/9783662473238) or this [one](http://www.springer.com/gp/book/9783540771463)), it was written to test *Domain Decomposition Methods* (DDM) applied to *Boundary Element Method* (BEM). It provides:
 
 - routines to build hierarchical matrix structures (cluster trees, block trees, low-rank matrices and block matrices),
 - parallel matrix-vector and matrix-matrix product using MPI and OpenMP,
@@ -40,4 +41,4 @@ Htool is an implementation of hierarchical matrices (cf. this [reference](http:/
 - GUI and several service functions to display informations about matrix structures and timing,
 - a Python interface.
 
-Htool is written by Pierre-Henri Tournier and I, it is available on [GitHub](https://github.com/htool-ddm/htool).
+Htool is written by Pierre-Henri Tournier and I, it is available on [GitHub](https://github.com/htool-ddm/htool). -->

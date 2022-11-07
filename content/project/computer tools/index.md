@@ -3,7 +3,7 @@ title: Computer tools
 summary: Computer tools for mathematicians and computer scientists
 
 tags: 
-- computer tools
+- teaching
 
 
 # Optional external URL for project (replaces project detail page).

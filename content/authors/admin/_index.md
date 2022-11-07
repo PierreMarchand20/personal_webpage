@@ -82,7 +82,7 @@ email: ""
 # - Visitors
 ---
 
-I am a researcher at [Inria](https://www.inria.fr/fr) in [POEMS](https://uma.ensta-paris.fr/poems/main/presentation.html?lang=en) team. My research focuses on wave propagation problems, Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for distributed hierarchical matrix techniques called [Htool]({{< ref "/project/htool/index.md" >}}) using MPI. It can be used via [FreeFEM](https://freefem.org) for solving BIEs, via [PETSc](https://www.mcs.anl.gov/petsc/) for black-box compression, and directly via C++ or its Python interface.
+I am a researcher at [Inria](https://www.inria.fr/fr) in [POEMS](https://uma.ensta-paris.fr/poems/main/presentation.html?lang=en) team. My research focuses on wave propagation problems, Decomposition Domain Methods (DDM) and Boundary Integral Equations (BIE). I am also developing a library for distributed compressed matrices called [Htool](https://htool-documentation.readthedocs.io/en/latest/) using MPI. It can be used via [FreeFEM](https://freefem.org) for solving BIEs, via [PETSc](https://www.mcs.anl.gov/petsc/) for black-box compression, and directly via C++ or its Python interface.
 
 I also teach at [ENSTA](https://www.ensta-paris.fr) courses related to applied mathematics and programming. I wrote [Computer Tools](https://pmarchand.pages.math.cnrs.fr/computertools) to introduce useful tools for programming.
 
