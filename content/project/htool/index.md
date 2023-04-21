@@ -1,6 +1,6 @@
 ---
 title: Htool
-summary: Library for parallel hierarchical matrices
+summary: Library for parallel solvers and hierarchical matrices
 
 tags: 
 - htool

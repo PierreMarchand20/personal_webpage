@@ -16,5 +16,10 @@ subtitle: ""
 
 ### Job offers
 
-- Internship (final year of Master): [english and french subject](https://uma.ensta-paris.fr/modsim/var/files/stages/p2023/modsim_stage_002.pdf)
-- PhD position starting in 2023: [english and french subject](https://uma.ensta-paris.fr/modsim/var/files/theses/p2023/modsim_these_001.pdf)
+- Research engineer (2 years): [french](https://recrutement.inria.fr/public/classic/fr/offres/2023-05839) and [english](https://recrutement.inria.fr/public/classic/en/offres/2023-05839) offers
+
+
+### Current students
+
+- Antonin Boisneault (master internship)
+- Timothée Raynaud (master internship)

@@ -48,9 +48,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '#contact'
-  - icon: twitter
+  - icon: mastodon
     icon_pack: fab
-    link: https://twitter.com/PMarchand20
+    link: https://piaille.fr/@jimthefrench#
   - icon: github
     icon_pack: fab
     link: //github.com/PierreMarchand20
