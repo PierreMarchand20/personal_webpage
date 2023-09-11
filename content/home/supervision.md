@@ -14,12 +14,11 @@ subtitle: ""
 
 ---
 
-### Job offers
-
-- Research engineer (2 years): [french](https://recrutement.inria.fr/public/classic/fr/offres/2023-05839) and [english](https://recrutement.inria.fr/public/classic/en/offres/2023-05839) offers
-
-
 ### Current students
 
-- Antonin Boisneault (master internship)
-- Timothée Raynaud (master internship)
+- Antonin Boisneault
+    - PhD student (Oct. 2023 -)
+    - Master's degree research internship (Apr. - Aug. 2023)
+- Timothée Raynaud
+    - PhD student (Oct. 2023 -)
+    - Master's degree research internship (Apr. - Aug. 2023)

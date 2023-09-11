@@ -14,15 +14,26 @@ subtitle = ""
 
 +++
 
+### 2023-2024
+
+- *Cours accéléré de programmation* [O12] in [master AMS](https://uma.ensta-paris.fr/modsim/)\
+18 hours - [slides](https://pmarchand.pages.math.cnrs.fr/slides/courses/master_AMS_O12/#1)
+- *Programmation scientifique en C++* [SIM201] at ENSTA\
+14 hours -- lecturer: [Eric Lunéville](https://uma.ensta-paris.fr/~lunevill)
+- *Programmation scientifique en C++* [SIM202] at ENSTA\
+21 hours -- lecturer: [Eric Lunéville](https://uma.ensta-paris.fr/~lunevill)
+- *Introduction to Matlab* [MO102]\
+only organisation -- with [Eric Lunéville](https://uma.ensta-paris.fr/~lunevill)
+
 ### 2022-2023
 
 - *Cours accéléré de programmation* [O12] in [master AMS](https://uma.ensta-paris.fr/modsim/)\
 18 hours - [slides](https://pierremarchand20.github.io/slides/2022_07_O12_course)
 - *La méthode des éléments finis* [ANN201] at ENSTA\
 15 hours -- lecturer: [Sonia Fliss](https://perso.ensta-paris.fr/~fliss/Sonia_Fliss_web_page/Accueil.html)
-- *Programmation scientifique en C++* [SYM201] at ENSTA\
+- *Programmation scientifique en C++* [SIM201] at ENSTA\
 14 hours -- lecturer: [Eric Lunéville](https://uma.ensta-paris.fr/~lunevill)
-- *Programmation scientifique en C++* [SYM202] at ENSTA\
+- *Programmation scientifique en C++* [SIM202] at ENSTA\
 21 hours -- lecturer: [Eric Lunéville](https://uma.ensta-paris.fr/~lunevill)
 - *Introduction to Matlab* [MO102]\
 only organisation -- with [Eric Lunéville](https://uma.ensta-paris.fr/~lunevill)
