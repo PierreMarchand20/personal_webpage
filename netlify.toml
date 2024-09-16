@@ -1,3 +1,2 @@
 [build]
-command = "cp index.html $URL/index.html"
 publish = "public"
